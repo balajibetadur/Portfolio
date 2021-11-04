@@ -15,6 +15,26 @@
 
 }
 
+
+*::-webkit-scrollbar {
+    width: 5px;               /* width of the entire scrollbar */
+  }
+  
+
+*::-webkit-scrollbar-track {
+background: rgba(0, 0, 0, 0.1);        /* color of the tracking area */
+}
+
+*::-webkit-scrollbar-thumb {
+background-color: rgba(82, 82, 82, 0.526);    /* color of the scroll thumb */
+border-radius: 10px;       /* roundness of the scroll thumb */
+border: none;  /* creates padding around scroll thumb */
+}
+
+*::-webkit-scrollbar-thumb:hover{
+  background-color: rgba(82, 82, 82, 0.875);
+}
+
 *{
     box-sizing: border-box;
     padding: 0;
@@ -125,6 +145,14 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--text-color)
 }
 
 .name:hover,
@@ -133,10 +161,12 @@ body{
 }
 .icon{
     font-size: 1.5rem;
-    color: var(--theme)
+    color: var(--text-color)
 }
 
-.icon__text:hover{
+.icon__text:hover,
+.icon:hover,
+a:hover{
     color: var(--text-color-hover);
     cursor: pointer;
 }
@@ -745,10 +775,7 @@ background-color: rgba(0, 0, 0, 0.4);
 .pub__name{
     font-size: 1.1rem;
 }
-.education__img{
-    width: 400px;
-    height: auto;
-}
+
 .achs__set{
     display: flex;
     align-items: center;
@@ -831,7 +858,57 @@ background-color: rgba(0, 0, 0, 0.4);
     right: 10px;
     font-size: 0.7rem;
 }
+
+.top:hover{
+    background-color: var(--text-color-hover);
+}
+.top{
+    position: fixed;
+    bottom: 60px;
+    right:5px;
+    background-color: var(--theme);
+    border-radius: 5px;
+    padding: 5px;
+    width: 2rem;
+    height: 2rem;
+    /* color: var(--text-color-inverse); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.top__icon{
+    font-size: 2rem;
+    color: var(--text-color-inverse);
+    z-index: 10000;
+}
+
+.header{
+    height: 0;
+}
+
+
 @media (min-width: 750px) { 
+
+    .top{
+        width: 2.5rem;
+        height: 2.5rem;
+        bottom: 65px;
+        right: 10px;
+    }
+
+    .open__menu{
+        font-size: 28px;
+    }
+
+    .name{
+        font-size: 20px;
+    }
+
+    *::-webkit-scrollbar {
+        width: 10px;               /* width of the entire scrollbar */
+      }
 
     .adj__img{
         width: 40%;
@@ -929,6 +1006,13 @@ background-color: rgba(0, 0, 0, 0.4);
 }
 
 @media (min-width: 1200px) { 
+
+    .top{
+        width: 2.8rem;
+        height: 2.8rem;
+        bottom: 15px;
+        right: 15px;
+    }
 
     .certi__img{
         max-width: 600px;
@@ -1080,8 +1164,9 @@ background-color: rgba(0, 0, 0, 0.4);
         color: var(--text-color);
     }
     
+ 
     .main__option{
-        padding: 10px 20px 10px;
+        padding: 10px 15px 10px;
         font-size: 1.3vw;
         font-weight: 500;
     }

@@ -2,13 +2,15 @@ let barLength = 300;
 
 let data = {
     'menu' : [
-        {'class' : 'uil uil-estate icon', 'text' : 'Home'},
+        // {'class' : 'uil uil-estate icon', 'text' : 'Home'},
         {'class' : 'uil uil-user icon', 'text' : 'About'},
+        {'class' : 'uil uil-university icon', 'text' : 'Education'},
         {'class' : 'uil uil-file-alt icon', 'text' : 'Skills'},
-        {'class' : 'uil uil-briefcase-alt icon', 'text' : 'Work'},
+        {'class' : 'uil uil-briefcase-alt icon', 'text' : 'Experience'},
+        {'class' : 'uil uil-briefcase-alt icon', 'text' : 'Research'},
         {'class' : 'uil uil-browser icon', 'text' : 'Projects'},
         {'class' : 'uil uil-trophy icon', 'text' : 'Awards'},
-        {'class' : 'uil uil-message icon', 'text' : 'Contact'}
+        {'class' : 'uil uil-postcard icon', 'text' : 'Certificates'}
 
     ],
     'socialMedia' : [
@@ -359,7 +361,7 @@ data.socialMedia.forEach(icon => {
 });
 
 data.menu.forEach(icon => {
-    document.getElementById('menu').innerHTML += "<div class='icon__text'><a href=''> <i class='"+icon.class+"'></i></a>" + icon.text + "</div>" 
+    document.getElementById('menu').innerHTML += "<div class='icon__text'><a href=''> <i class='"+icon.class+"'></i>" + icon.text + "</a></div>" 
 });
 
 let menuIcon = document.getElementById('open__menu')
