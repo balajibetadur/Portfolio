@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
 
 :root{
-    --hue: 255;
-    --theme: hsl(var(--hue), 89%, 58%);
+    --hue: 258;
+    --theme: hsl(var(--hue), 65%, 56%);
     --text-color: rgb(34, 31, 31);
     --text-color-2: rgb(112, 109, 109);
     --text-color-hover:  hsl(var(--hue), 63%, 36%);
@@ -25,40 +25,53 @@ html{
     scroll-behavior: smooth;
     padding: 0;
     margin: 0;
+    width: 100%;
+    height: 100%;
+    margin-right: 0;
     
 }
 
 body{
-    font-family: 'Poppins', sans-serif;;
+    font-family: 'Poppins', sans-serif;
     font-size: var(--normal-font-size);
     background-color: var(--body-color);
     color: var(--text-color);
-    padding-bottom: 50px;
+    /* padding-bottom: 100px;  */
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.main{
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
 }
 
 .nav{
     position: fixed;
     bottom: 0;
+    margin: 0;
     padding: 13px;
-    /* padding-left: 20px; */
     font-weight: 500;
     box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.2);
     min-width: 100%;
     min-height: 50px;
-    display: flex;
-    justify-content: space-between;
+    /* display: flex;
+    justify-content: space-between; */
     /* transition: 1s; */
     background-color: var(--text-color-inverse);
     z-index: 10000;
     
 }
 
-.nav__hide{
+/* .nav__hide{
     opacity: 0;
-    /* max-height: 0; */
     visibility: hidden;
     transition: 0s;
-}
+} */
 
 .name:hover,
 .close__menu:hover,
@@ -87,7 +100,7 @@ body{
     left: 0;
     right: 0;
     height: auto;
-    width: 100%;
+    /* width: 100%; */
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     border-radius: 25px 25px 0 0;
@@ -127,9 +140,10 @@ body{
 .launch{
     display: flex;
     flex-wrap: wrap;
-    padding: 0;
-    margin: 30px;
+    padding: 30px;
+    width: 100%;
     align-items: center;
+    justify-content: center;
 }
 
 .social__media{
@@ -145,15 +159,18 @@ body{
 }
 
 .blob{
-    width: 260px;
+    width: 80%;
+    max-width: 350px;
+    height: auto;
+    margin: 0s;
+    padding-left: 3rem;
+    padding-top: 2rem;
     fill: var(--theme);
-    padding-top: 40px;
-    padding-left: 40px;
-    padding-bottom: 50px;
 }
 
+
 .blob__img{
-    width: 200px;
+    width: 100%;
     height: auto;
 }
 
@@ -167,7 +184,8 @@ body{
 }
 
 .title{
-    max-width: 400px;
+    margin-top: 4rem;
+    width: 100%;
 }
 
 .resume{
@@ -213,19 +231,31 @@ body{
     padding-top: 30px;
 }
 
+.DSAI{
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .DSAI__img{
     padding: 20px;
-    max-height: 100%;
-    max-width: 400px;
+    width: 90%;
 }
 
 .what__i__do__title{
     font-size: 1.5rem;
-    font-weight: 600px;
+    font-weight: 600;
     text-align: center;
     padding-top: 30px;
+    width: 100%;
 }
 
+
+.d{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-bottom: 20px;
+}
 
 .skills__title{
     text-align: center;
@@ -238,12 +268,13 @@ body{
 .skills{
     padding: 30px;
     font-size: 14px;
+    width: 100%;
 }
 
 .fullBar{
-    width: 400px;
+    width: 300px;
     height: 20px;
-    background-color: rgb(233, 232, 232);
+    background-color: rgb(219, 217, 217);
     border-radius: 15px;
 }
 
@@ -266,7 +297,7 @@ body{
 }
 
 .bars{
-    display: f;
+    display: flex;
     padding: 10px;
 }
 
@@ -287,27 +318,25 @@ body{
     font-weight: 600px;
     text-align: center;
     padding-top: 30px;
-    margin: 20px;
+    padding: 20px;
 }
 
 .card{
-    width: 400px;
-    min-height: 250px;
+    width: 300px;
+    min-height: 200px;
     background-color: rgba(58, 57, 57, 0.13);
     border-radius: 10px;
-    margin: 20px;
-    /* z-index: 1; */
-    
+    margin: 20px;   
     box-shadow: 0 5px 10px 0.1px rgba(0, 0, 0, 0.4);
+    position: relative;
 }
 
 
 .card__img{
-    width: 400px;
-    height: 200px;
+    width: 300px;
+    height: 160px;
     object-fit: cover;
     border-radius: 10px 10px 0 0;
-    position: relative;
     z-index: -10;
 }
 
@@ -329,6 +358,7 @@ body{
     margin-top: 15px;
     padding: 2px 5px 2px;
     font-size: 0.8rem;
+    max-width: 230px;
 }
 
 .details{
@@ -446,8 +476,8 @@ hr{
 }
 
 .project__card{
-    width: 400px;
-    min-height: 200px;
+    width: 300px;
+    height: 150px;
     border-radius: 10px;
     border: 1px grey solid;
     margin: 15px;
@@ -461,9 +491,12 @@ hr{
     
 }
 
+.header{
+    visibility: hidden;
+}
 
 .project__name{
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     font-weight: 700;
     margin: 30px;
     text-align: center;
@@ -474,11 +507,419 @@ hr{
     cursor: pointer;
 }
 
-/* .project__image{
-    width: 400px;
-    height: 200px;
-    object-fit: cover;
-    /* filter: blur(4px); */
-    border-radius: 10px;
+.education{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
 
-} */
+.education__title{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.education__img{
+    width: 70%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.degree,
+.highSchool,
+.school{
+    width: 90%;
+    max-width: 500px;
+    border-radius: 10px;
+    border: 1px solid grey;
+    box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.4);
+    margin: 15px;
+    padding: 10px;
+}
+
+
+.course{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.spec{
+    
+    font-size: 1.2rem;
+    font-weight: 600;
+
+}
+
+.score p{
+    font-size: 1.3rem;
+    font-weight: 900px;
+}
+
+
+.edu__cards{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.achi__title{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-top: 80px;
+    margin-bottom: 45px;
+}
+.certi__title{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-top: 80px;
+    margin-bottom: 45px;
+}
+
+.achievement{
+    padding-left: 80px;
+}
+
+.github{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon__github{
+    font-size: 2rem;
+    padding: 1px 20px 1px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.2);
+    margin-left: 80%;
+}
+
+.icon__github:hover{
+cursor: pointer;
+background-color: rgba(0, 0, 0, 0.4);
+}
+
+.github__text{
+    font-size: 1.2rem;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+}
+
+.certi__cards{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.just{
+    min-height: 40px;
+    margin: 10px;
+    width: 50%;
+}
+
+.certi__cards{
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-around; */
+    margin: 30px;
+
+}
+.certi__card{
+    
+    width: 80%;
+    border-radius: 10px;
+    height: 150px;
+    background-color: rgb(18, 13, 37);
+    margin: 10px;
+    box-shadow: 0 0 15px 3px grey;
+    align-items: center;
+    justify-content: center;
+    color: var(--text-color-inverse);
+    padding: 10px;
+    display: flex;
+    font-size: 1.25rem;
+    font-weight: 500;
+    max-width: 300px
+}
+
+.achs__set{
+    display: flex;
+    align-items: center;
+}
+
+.ach__img{
+    width: 90%;
+    padding-bottom: 30px;
+}
+
+.achievement{
+    padding-left: 30px;
+}
+
+
+@media (min-width: 750px) { 
+
+    .certi__card{
+        max-width: 300px
+    }
+
+    .header{
+        visibility: hidden;
+    }
+
+    .launch{
+        position: relative;
+        justify-content: flex-start;
+    }
+
+    .blob{
+        position: absolute;
+        right: 2rem;
+        top: 2rem;
+        width: 350px;
+    }
+
+    .title{
+        width: 50%;
+        margin-left: 2rem;
+    }
+
+    .DSAI__img{
+        width: 40%;
+    }
+
+    .about__desc{
+        width: 40%;
+    }
+
+    .d{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .fullBar{
+        width: 300pxs;
+    }
+    .education__img{
+        width: 40%;
+        height: auto;
+        margin-bottom: 20px;
+        margin: 1rem;
+    }
+
+    .all__edu{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+@media (min-width: 1100px) { 
+
+    .launch{
+        margin-top: 7rem;
+    }
+
+    .title__name{
+        font-size: 3rem;
+    }
+
+    .description{
+        font-size: 1.3rem;
+    }
+    .resume__text{
+        font-size: 1.15rem;
+    }
+    .resume{
+        align-items: center;
+        justify-content: center;
+    }
+    .social__icon{
+        font-size: 2.2rem;
+    }
+
+    .title__name{
+        padding-bottom: 2rem;
+        font-size: 4rem;
+    }
+    
+    .blob{
+        position: absolute;
+        right: 7rem;
+        top: 2rem;
+        width: 400px;
+    }
+    
+    .title{
+        width: 70%;
+        padding-left: 3rem;
+
+    }
+
+    .resume{
+        margin-top: 5rem;
+        margin-bottom: 5rem;
+
+    }
+
+    .description{
+        width: 600px;
+    }
+
+    .about__desc{
+        width: 40%;
+        font-size: 1.3rem;
+    }
+
+    .about__title{
+        font-size: 3rem;
+        margin-bottom: 3rem;
+    }
+
+    .what__i__do__title{
+        font-size: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    .skills__title{
+        font-size: 3rem;
+    }
+
+    .fullBar{
+        width: 480px;
+        height: 25px;
+    }
+
+    .bar{
+        height: 25px;
+    }
+
+    .skills__text{
+        font-size: 1rem;
+    }
+    
+    .work__title{
+        font-size: 3rem;
+    }
+
+    .sub__title{
+        font-size: 2.2rem;
+    }
+
+    .card,
+    .card__img{
+        width: 350px;
+    }
+
+    .card__name{
+        max-width: 350px;
+    }
+
+    .project__card{
+        width: 350px;
+    }
+    .modal__set{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        text-align: center;
+        justify-content: space-around;
+    
+    }
+    hr{
+        visibility: hidden;
+    }
+    
+    .header{
+        position: fixed;
+        padding-right: 50px;
+        top: 0;
+        padding-top: 20px;
+        height: 70px;
+        background-color: var(--text-color-inverse);
+        margin: 0;
+        z-index: 100;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        visibility: visible;
+        
+    }
+
+    .main__option a{
+    
+        text-decoration: none;
+        color: var(--text-color);
+    }
+    
+    .main__option{
+        padding: 10px 20px 10px;
+        font-size: 1.3vw;
+        font-weight: 500;
+    }
+
+    .main__option:hover{
+        color: var(--theme);
+        cursor: pointer;
+        background-color: hsla(var(--hue), 70%, 51%, 0.816);
+        border-radius: 5px;
+        
+    }
+    .nav{
+        visibility: hidden;
+    }
+
+    .education__img{
+        width: 50%;
+        height: auto;
+        margin-bottom: 20px;
+        margin: 3rem;
+    }
+
+    .all__edu{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .main__name{
+        position: absolute;
+        left: 30px;
+        top: 25px;
+        font-size: 2vw;
+        font-weight: 800;
+    }
+
+    .achievements{
+        position: relative;
+    }
+
+    .ach__img{
+        position: absolute;
+        top: 40px;
+        width: 40%;
+        margin-left: 50%;
+    }
+    
+
+    .achi__title{
+        font-size: 2.2rem;
+    }
+    .certi__title{
+        font-size: 2.2rem;
+    }
+   
+
+    
+    
+  }
