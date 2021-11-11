@@ -39,6 +39,7 @@ border: none;  /* creates padding around scroll thumb */
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    
 }
 
 html{
@@ -129,6 +130,7 @@ body{
     transition: 0.5s;
     bottom: -100%;
     z-index: 1;
+    font-size: 0.8rem;
     background-color: var(--text-color-inverse);
 }
 
@@ -137,6 +139,7 @@ body{
     bottom: 0;
     transition: 0.5s;
     visibility: visible;
+    padding-bottom: 30px;
 }
 
 .icon__text{
@@ -239,6 +242,9 @@ a:hover{
     padding-left: 5px;
     transition: 0.5s;
 }
+.res__arrow{
+    color: var(--text-color-inverse);
+}
 
 .anim{
     padding-left: 15px;
@@ -253,6 +259,7 @@ a:hover{
 
 .resume__text{
     padding-left: 5px;
+    color: var(--text-color-inverse);
 }
 
 .about{
@@ -386,6 +393,15 @@ a:hover{
     justify-content:center;
 }
 
+.card__name__pub{
+    background-color: white;
+    border-radius: 0 3px 3px 0;
+    margin-top: 15px;
+    padding: 2px 5px 2px;
+    font-size: 0.8rem;
+    max-width: 230px;
+}
+
 .card__name{
     position: absolute;
     /* z-index: -1; */
@@ -439,22 +455,30 @@ a:hover{
     width: 100%; 
     height: 100%;  
     background-color: rgba(0,0,0,0.4);
+    
 }
 
 .modal__content {
+    box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.4);
     background-color: #fefefe;
     margin: auto;
-    padding: 20px;
+
+    padding: 15px;
     border: 1px solid #888;
     width: 80%;
     border-radius: 10px;
     position: relative;
     z-index: 10000;
+    max-height: 90%;
+    overflow: scroll;
+    overflow-x: hidden;
+    overflow-y: auto;
+    font-size: 0.8rem;
   }
 
 .modal__title{
     
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     font-weight: 600px;
     text-align: center;
     padding-right: 10px;
@@ -467,7 +491,7 @@ hr{
 
 .outcome{
     text-align: center;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     font-weight: 500;
 }
 
@@ -477,6 +501,14 @@ hr{
     right: 10px;
     top: 10px;
     font-size: 1.1rem;
+
+}
+
+.project__skill{
+    font-size: 15px;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 3px 8px 3px;
 
 }
 
@@ -611,14 +643,14 @@ hr{
     text-align: center;
     font-size: 2rem;
     font-weight: 700;
-    margin-top: 80px;
+    padding-top: 80px;
     margin-bottom: 45px;
 }
 .certi__title{
     text-align: center;
     font-size: 2rem;
     font-weight: 700;
-    margin-top: 80px;
+    padding-top: 80px;
     margin-bottom: 45px;
 }
 
@@ -629,16 +661,23 @@ hr{
 .github{
     margin-top: 30px;
     display: flex;
+    height: 50px;
     align-items: center;
     justify-content: center;
 }
+
 
 .icon__github{
     font-size: 2rem;
     padding: 1px 20px 1px;
     border-radius: 10px;
     background-color: rgba(0, 0, 0, 0.2);
-    margin-left: 80%;
+    /* margin-left: 80%; */
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
 }
 
 .icon__github:hover{
@@ -660,7 +699,7 @@ background-color: rgba(0, 0, 0, 0.4);
 }
 
 .just{
-    min-height: 40px;
+    min-height: 300px;
     margin: 10px;
     width: 50%;
 }
@@ -684,7 +723,7 @@ background-color: rgba(0, 0, 0, 0.4);
     
     text-align: center;
     margin: 10px;
-    box-shadow: 0 0 15px 3px grey;
+    box-shadow: 0 0 10px 1px grey;
     align-items: center;
     justify-content: center;
     color: var(--text-color-inverse);
@@ -708,7 +747,7 @@ background-color: rgba(0, 0, 0, 0.4);
     height: 200px;
     border-radius: 10px;
     text-align: center;
-    box-shadow: 0 0 15px 3px grey;
+    box-shadow: 0 0 10px 1px grey;
     justify-content: center;
     align-items: center;
     display: flex;
@@ -741,6 +780,7 @@ background-color: rgba(0, 0, 0, 0.4);
 
 }
 
+
 .paper{
     border: 1px solid grey;
     box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.2);
@@ -761,9 +801,9 @@ background-color: rgba(0, 0, 0, 0.4);
 
 .details__pub{
     color: var(--text-color-inverse);
-    margin-top: 8%;
+    /* margin-top: 8%; */
     width: 100%;
-    height: 80%;
+    min-height: 200px;
     padding: 10px;
     display: flex;
     align-items: center;
@@ -888,8 +928,107 @@ background-color: rgba(0, 0, 0, 0.4);
     height: 0;
 }
 
+.others{
+    margin: 10px 30px 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.c__icon{
+    
+    margin: 10px;
+    border: 1px solid grey;
+    border-radius: 50%;
+    padding: 10px 15px 10px;
+    font-size: 1.7rem;
+  }
+
+  .c__icon:hover{
+      cursor: pointer;
+      background-color: var(--text-color-2);
+  }
+
+.call{
+    width: 220px;
+    padding: 10px;
+    margin: 10px;
+    background-color: var(--theme);
+    border-radius: 10px;
+    font-size: 1.1rem;
+    color: var(--text-color-inverse);
+    font-weight: 500;
+    font-style:normal;
+}
+.cc{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.call:hover{
+    cursor: pointer;
+    background-color: var(--text-color-hover);
+}
+
+.dec__sections,
+.proj__sections{
+    margin: 5px;
+}
+
+.contact__text{
+    padding: 10px 150px 20px;
+    text-align: center;
+}
 
 @media (min-width: 750px) { 
+
+    .menu{
+        font-size: 1rem;
+    }
+    
+
+   
+    .modal__content {
+        font-size: 1rem;
+        padding: 40px;
+    }
+
+    .modal__title{
+        font-size: 1.5rem;
+    }
+    .outcome{
+        font-size: 1.3rem;
+    }
+    .just{
+        min-height: 100px;
+        margin: 10px;
+        width: 50%;
+    }
+    .call{
+        width: 300px;
+        padding: 15px 20px 15px;
+        margin: 10px;
+        background-color: var(--theme);
+        border-radius: 10px;
+        font-size: 1.5rem;
+        color: var(--text-color-inverse);
+        font-weight: 500;
+        font-style:normal;
+    }
+
+    
+    .c__icon{
+    
+        margin: 15px;
+        border: 2px solid grey;
+        border-radius: 50%;
+        padding: 15px 25px 15px;
+        font-size: 2rem;
+      }
 
     .top{
         width: 2.5rem;
@@ -921,8 +1060,8 @@ background-color: rgba(0, 0, 0, 0.4);
         width: 50%;
     }
     .certi__img{
-        width: 50%;
-        max-width: 500px;
+        width: 30%;
+        /* max-width: 300px; */
     }
     .spec_{
         width: 400px;
@@ -930,6 +1069,11 @@ background-color: rgba(0, 0, 0, 0.4);
     .ach__img{
         width: 60%;
         padding-bottom: 30px;
+        
+    }
+
+    .achs{
+        padding-left: 50px;
     }
 
     /* .achs__set{
@@ -1007,6 +1151,20 @@ background-color: rgba(0, 0, 0, 0.4);
 
 @media (min-width: 1200px) { 
 
+    .icon__github{
+        margin-left: 80%;
+        
+
+    }
+    .proj__sections{
+        margin: 5px;
+        width: 33%;
+    }
+    .dec__sections{
+        margin: 5px;
+        width: 50%;
+    }
+    
     .top{
         width: 2.8rem;
         height: 2.8rem;
@@ -1123,6 +1281,9 @@ background-color: rgba(0, 0, 0, 0.4);
     }
 
     .card__name{
+    max-width: 350px;
+}
+    .card__name__pub{
         max-width: 350px;
     }
 
@@ -1132,10 +1293,14 @@ background-color: rgba(0, 0, 0, 0.4);
     .modal__set{
         display: flex;
         flex-direction: row;
-        align-items: center;
-        text-align: center;
+        /* align-items: center; */
+        /* text-align: center; */
         justify-content: space-around;
     
+    }
+
+    .dec__sections{
+        margin: 20px;
     }
     hr{
         visibility: hidden;
@@ -1166,9 +1331,9 @@ background-color: rgba(0, 0, 0, 0.4);
     
  
     .main__option{
-        padding: 10px 15px 10px;
-        font-size: 1.3vw;
-        font-weight: 500;
+        padding: 10px 17px 10px;
+        font-size: 1.1vw;
+        font-weight: 400;
     }
 
     .main__option:hover{
@@ -1180,6 +1345,10 @@ background-color: rgba(0, 0, 0, 0.4);
         
     }
     
+    .vol__modal{
+        width: 50%;
+    }
+
     .nav{
         visibility: hidden;
     }
@@ -1217,7 +1386,7 @@ background-color: rgba(0, 0, 0, 0.4);
 
     .ach__img{
         position: absolute;
-        top: 40px;
+        top: 150px;
         width: 40%;
         margin-left: 50%;
     }
@@ -1228,6 +1397,7 @@ background-color: rgba(0, 0, 0, 0.4);
     }
     .certi__title{
         font-size: 2.2rem;
+        padding-top: 80px;
     }
    
     .skillBars{
@@ -1240,7 +1410,19 @@ background-color: rgba(0, 0, 0, 0.4);
         justify-content: center;
         align-items: center;
     }
-
+    .details__pub{
+        padding: 40px;
+        min-height: 150px;
+    }
     
-    
+    .outcome{
+        width: 53%;
+    }
+    /* .main{
+        height: 90%;
+    } */
+    .education__title{
+        padding-top: 80px;
+        font-size: 3rem;
+    }
   }
