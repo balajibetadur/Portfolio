@@ -76,13 +76,19 @@ let data = {
         {'skill' : 'SQL', 'Level' :  0.8},
         {'skill' : 'Flask', 'Level' :  0.8},
         {'skill' : 'Javascript', 'Level' :  0.9},
-        {'skill' : 'ReactJS', 'Level' :  0.8},
         {'skill' : 'MongoDB', 'Level' :  0.8},
         {'skill' : 'DBMS', 'Level' :  0.9},
+        {'skill' : 'ReactJS', 'Level' :  0.8},
         {'skill' : 'Firebasae', 'Level' :  0.8},
         {'skill' : 'AWS', 'Level' :  0.5},
+        {'skill' : 'C', 'Level' :  0.7},
         {'skill' : 'Bootstrap', 'Level' :  0.9},
+        {'skill' : 'C++', 'Level' :  0.7},
         {'skill' : 'Git', 'Level' :  0.8},
+        {'skill' : 'NodeJS ', 'Level' :  0.7},
+        {'skill' : 'HTML 5', 'Level' :  0.9},
+        {'skill' : 'CSS 3', 'Level' :  0.8},
+        {'skill' : 'Figma', 'Level' :  0.7},
         {'skill' : 'Mentoring', 'Level' :  1},
         {'skill' : 'Teaching', 'Level' :  1}
     ]
@@ -508,9 +514,9 @@ let data = {
                 'duration' : 'Sep 20 - Present',
                 'description' : `
 
-                        I joined as a Machine Learning trainee at Girlscript technology's core program.<br><br>
+                        ✔ I joined as a Machine Learning trainee at Girlscript technology's core program.<br><br>
 
-                        I taught pyhton and machine learning concepts for 50+ engineering students that includes<br>
+                        ✔ I taught pyhton and machine learning concepts for 50+ engineering students that includes<br>
                         &nbsp;&nbsp;&nbsp;- Machine Learning algorithms<br>
                         &nbsp;&nbsp;&nbsp;- Deep Learning Algorithms<br>
                         &nbsp;&nbsp;&nbsp;- Pyhton core concepts<br>
@@ -520,7 +526,7 @@ let data = {
                         &nbsp;&nbsp;&nbsp;- Deployment on heroku<br><br>
 
 
-                        We deceloped 5 projects on machine learning and deep learning and deployed it on heroku.<br><br>
+                        ✔ We developed 5 projects on machine learning and deep learning and deployed it on heroku.<br><br>
 
                 `,
                 'outcome' : 'jhgdf</br></br>sdfh'
@@ -540,198 +546,361 @@ let data = {
                 'title' : 'Auto AI Modelling',
                 'purpose' : `
 
-                    One of my cousin who has limited technical expertise, approached me asking to develop a machine learning module for his business website.
+                    ✔ One of my cousin who has limited technical expertise, approached me asking to develop a machine learning module for his business website.<br><br>
                     
-                    I realised that this technical barrier is preventing people from accessing advantages of machine learning and deep learning.
+                    ✔ I realised that this technical barrier is preventing people from accessing advantages of machine learning and deep learning.<br><br>
 
-                    I wanted to break this barrier, so I created a website 'Auto Modelling' where people without or with limited technical knowledge can train and use machine learning models with a single click.
+                    ✔ I wanted to break this barrier, so I created a website 'Auto Modelling' where people without or with limited technical knowledge can train and use machine learning models with a single click.<br><br>
                 
                 `,
                 'description' : `
                     
-                    Auto Modelling is a platform where anyone can train, retrain and use machine learning models irrespective of their technical expertise.
+                    ✔ Auto Modelling is a platform where anyone can train, retrain and use machine learning models irrespective of their technical expertise.<br><br>
                 
-                    User can upload data in any format(.txt, .csv, .xlsx, folders, .msg, .zip etc), data preparation module will format the uploaded data into standard format.
+                    ✔ User can upload data in any format(.txt, .csv, .xlsx, folders, .msg, .zip etc), data preparation module will format the uploaded data into standard format.<br><br>
 
-                    If user is completely unaware of machine learning, then he can select standard training option that will train the model with different algorithms, different combination of paramaters and different features from the dataset.
+                    ✔ If user is completely unaware of machine learning, then he can select standard training option that will train the model with different algorithms, different combination of paramaters and different features from the dataset.<br><br>
 
-                    If the user is partially aware of technicalities, he can modify select any algorithms, filter algorithms based on training time, modify any parameter of selected algorithm, enable/disbale grid search (try different parameters in different combination to get the model with best accuracy) and return the model with best accuracy.
+                    ✔ If the user is partially aware of technicalities, he can modify select any algorithms, filter algorithms based on training time, modify any parameter of selected algorithm, enable/disbale grid search (try different parameters in different combination to get the model with best accuracy) and return the model with best accuracy.<br><br>
 
 
 
                 `,
                 'outcome' : `
 
-                    Many students from non-It background used this website to use machine elarning and deep learning in their projects without coding anything themselves.
+                    ✔ Many students from non-It background used this website to use machine elarning and deep learning in their projects without coding anything themselves.<br><br>
 
-                    Apart from few algorithms like transformers and deep learning algorithms, other algorithms will be trained in less than 2 seconds.
+                    ✔ Apart from few algorithms like transformers and deep learning algorithms, other algorithms will be trained in less than 2 seconds.<br><br>
 
-                    Average time for standard training (all algorithms, all parameters, different combinations) is less than 10 seconds.
+                    ✔ Average time for standard training (all algorithms, all parameters, different combinations) is less than 10 seconds.<br><br>
 
-                    This platform also provides an interface for predicting new samples (single document and bulk collection) and enables user to download the output in any required format.
+                    ✔ This platform also provides an interface for predicting new samples (single document and bulk collection) and enables user to download the output in any required format.<br><br>
 
-                    Not only user can train the models, he can save every trained model. Incase the user wished to revert back to the previous model, he can just select the required model and download it or use the model to predict new samples.
+                    ✔ Not only user can train the models, he can save every trained model. Incase the user wished to revert back to the previous model, he can just select the required model and download it or use the model to predict new samples.<br><br>
                     
                 `,
                 'image' : 'autoML.jpg',
-                'skills' : ''
+                'skills' : ['Pyhton', 'JavaScript', 'Machine Learning', 'Neural Networks', 'Keras', 'fastai', 'Pandas', 'Sklearn', 'Bootstrap', 'Git', 'MongoDB', 'VSCode', 'Jupyter Notebook']
             },
             {
                 'title' : 'COVID-19 prediction',
                 'purpose' : `
                 
-                    During the beginning of the COVID-19 outburst, there were limited ways to diagnose the spread of the infection.
+                    ✔ During the beginning of the COVID-19 outburst, there were limited ways to diagnose the spread of the infection.<br><br>
 
-                    People were worried due to the lack of facilities to get tested for COVID-19 and prevent spreading the infection to others.
+                    ✔ People were worried due to the lack of facilities to get tested for COVID-19 and prevent spreading the infection to others.<br><br>
                     
-                    Many websites displayed the number of deaths and number of infected people, but there was no website enabling people to know whether they had the infection.
+                    ✔ Many websites displayed the number of deaths and number of infected people, but there was no website enabling people to know whether they had the infection.<br><br>
                     
-                    So I designed a platform where users can enter their symptoms (fever, cold, cough, age, body pain etc.) and rate the intensity for each symptom.
+                    ✔ So I designed a platform where users can enter their symptoms (fever, cold, cough, age, body pain etc.) and rate the intensity for each symptom.<br><br>
                 
                 `,
                 'description' : `
                 
-                    The website takes user symptoms as input and predicts the infection probability using machine learning. . 
+                    ✔ The website takes user symptoms as input and predicts the infection probability using machine learning.<br><br> 
 
-                    It also classified the user under four categories, namely
-                    Infected
-                    Sensitive
-                    Cautious    
-                    Safe
-                    Based on the category, there were precautions displayed to the user.
+                    ✔ It also classified the user under four categories, namely<br>
+                    &nbsp;&nbsp;&nbsp;- Infected<br>
+                    &nbsp;&nbsp;&nbsp;- Sensitive<br>
+                    &nbsp;&nbsp;&nbsp;- Cautious  <br>  
+                    &nbsp;&nbsp;&nbsp;- Safe<br><br>
+                    ✔ Based on the category, there were precautions displayed to the user.<br><br>
                     
-                    Not only symptoms, but users can also upload x-ray scans to know the infection status. The image classification model (X-Ray) was 98.8 % accurate.
+                    ✔ Not only symptoms, but users can also upload x-ray scans to know the infection status. The image classification model (X-Ray) was 98.8 % accurate.<br><br>
                     
-                    Further, I included a mask detection software that will detect whether the person is wearing the mask and notify the admin if anyone without a face mask is found.
+                    ✔ Further, I included a mask detection software that will detect whether the person is wearing the mask and notify the admin if anyone without a face mask is found.<br><br>
 
                 `,
                 'outcome' : `
 
-                    Users determined the probability of infection sitting at home without contacting or visiting any test centres.
+                    ✔ Users determined the probability of infection sitting at home without contacting or visiting any test centres.<br><br>
 
-                    The face mask detection software has been installed in 3 societies of my locality.               
+                    ✔ The face mask detection software has been installed in 3 societies of my locality.   <br><br>            
 
                 `,
                 'image' : 'covid.jpg',
-                'skills' : ''
+                'skills' : ['Pyhton', 'Machine Learning', 'Heroku', 'javascript', 'Sklearn', 'Pandas', 'Git', 'Firebase', 'Bootstrap', 'VSCode']
             },
             {
                 'title' : 'Lookinat - Abrod study prep website',
                 'purpose' : `
                 
-                    I was preparing for GRE (Graduate Record Examinations), and I needed to learn new words daily in order to understand the passage and sentences in the verbal section os the exam.
+                    ✔ I was preparing for GRE (Graduate Record Examinations), and I needed to learn new words daily in order to understand the passage and sentences in the verbal section os the exam.<br><br>
 
-                    There are third-party applications that provide flashcards (decks of 30 words). But these flashcards had no other features, which made them difficult to use. I realized that many other students are facing the same issue.
+                    ✔ There are third-party applications that provide flashcards (decks of 30 words). But these flashcards had no other features, which made them difficult to use. I realized that many other students are facing the same issue.<br><br>
                     
-                    So I developed an application where there were multiple features that will help students to add, search, study, revise, star, shuffle, sort, filter words. 
+                    ✔ So I developed an application where there were multiple features that will help students to add, search, study, revise, star, shuffle, sort, filter words. <br><br>
                     
-                    I also found that there are limited resources online to help students with abroad study, so I am adding new modules to the application that will help a student from the beginning until he completes education abroad and get a job.
+                    ✔ I also found that there are limited resources online to help students with abroad study, so I am adding new modules to the application that will help a student from the beginning until he completes education abroad and get a job.<br><br>
                 
                 `,
                 'description' : `
                 
-                    The current application has around 3000 words. It also has a separate word set for the Sentence Equivalence Section, where one word with its contextual synonym words will be available.
+                    ✔ The current application has around 3000 words. It also has a separate word set for the Sentence Equivalence Section, where one word with its contextual synonym words will be available.<br><br>
 
-                    There are 48 decks of words, each containing 30 to 50 words in each deck. These decks are designed based on the difficulty and frequency of the words appearing in the actual GRE.
+                    ✔ There are 48 decks of words, each containing 30 to 50 words in each deck. These decks are designed based on the difficulty and frequency of the words appearing in the actual GRE.<br><br>
                     
-                    New features that are introduced
-                        Star a word: user can star/mark a word and revise them later at any point in time.
-                        Add words: The user can add new words into a new deck.
-                        Seach word: The user can search for any new word that he encounters during practice. New words that are searched are also saved in the database as a new deck of words. 
-                        Every word is marked with any one of the labels (positive, negative, neutral). This helps in the text completion section, where one can get correct answers just by knowing the tone of the word.
-                        Shuffle: The user can shuffle the words for robust practice.
-                        Filter: The user can filter the words by deck number and perform shuffle action for filtered words.
-                        Synonyms: For every word, there will be a meaning, description, example and set of synonyms. Definitions of these synonyms can also be viewed just by hovering on the synonym.
-                        Study/Practice Mode: These modes help users to study and practice words in an effective manner.
-                    New modules like GRE quant preparation, voting and ranking system for students solving doubts asked by peers, IELTS preparation, university shortlisting based on the students profile, detailed description of each university (application requirements, ranking, courses, tuition fees, application fees, deadline etc.), VISA interview preparation and a job portal.
+                    ✔ New features that are introduced
+                        &nbsp;&nbsp;&nbsp;- Star a word: user can star/mark a word and revise them later at any point in time.<br>
+                        &nbsp;&nbsp;&nbsp;- Add words: The user can add new words into a new deck.<br>
+                        &nbsp;&nbsp;&nbsp;- Seach word: The user can search for any new word that he encounters during practice. New words that are searched are also saved in the database as a new deck of words. <br>
+                        &nbsp;&nbsp;&nbsp;- word Tone: Every word is marked with any one of the labels (positive, negative, neutral). This helps in the text completion section, where one can get correct answers just by knowing the tone of the word.<br>
+                        &nbsp;&nbsp;&nbsp;- Shuffle: The user can shuffle the words for robust practice.<br>
+                        &nbsp;&nbsp;&nbsp;- Filter: The user can filter the words by deck number and perform shuffle action for filtered words.<br>
+                        &nbsp;&nbsp;&nbsp;- Synonyms: For every word, there will be a meaning, description, example and set of synonyms. Definitions of these synonyms can also be viewed just by hovering on the synonym.<br>
+                        &nbsp;&nbsp;&nbsp;- Study/Practice Mode: These modes help users to study and practice words in an effective manner.<br><br>
+                    ✔ New modules like GRE quant preparation, voting and ranking system for students solving doubts asked by peers, IELTS preparation, university shortlisting based on the students profile, detailed description of each university (application requirements, ranking, courses, tuition fees, application fees, deadline etc.), VISA interview preparation and a job portal.<br><br>
                 `,
                 'outcome' : `
                 
-                    This application oversomes the shortcomings of existing systems.
+                    ✔ This application oversomes the shortcomings of existing systems.<br><br>
                 
-                    More than 450 students use the current version.
+                    ✔ More than 450 students use the current version.<br><br>
 
-                    Voting and ranking system motivated students to answer more questions that leads to healthy preparation.
+                    ✔ Voting and ranking system motivated students to answer more questions that leads to healthy preparation.<br><br>
 
-                    Periodic question sets and word quiz helps students to keep the preparation on track. 
+                    ✔ Periodic question sets and word quiz helps students to keep the preparation on track. <br><br>
 
                 `,
                 'image' : 'ms.jpg',
-                'skills' : ''
+                'skills' : ['JavaScript', 'ReactJS', 'Firebase', 'Git', 'VSCode', 'Material UI', 'Google API', 'Selenium', 'JSON', 'Netlify']
             },
             {
                 'title' : 'Moving Window Object detection',
                 'purpose' : `
                 
-                    There was a hackathon on Computer Vision held by the Indian Institute of Technology, Bombay. We were required to classify/detect the traffic signals in such images, where there is a crowd, multiple symbols, and the size of the signs varied from 100% to 2% to image ratio.
+                    ✔ There was a hackathon on Computer Vision held by the Indian Institute of Technology, Bombay. We were required to classify/detect the traffic signals in such images, where there is a crowd, multiple symbols, and the size of the signs varied from 100% to 2% to image ratio.<br><br>
 
-                    I needed a unique way to solve this because conventional methods would fail to give better accuracy on tiny signs than regular and large signs.
+                    ✔ I needed a unique way to solve this because conventional methods would fail to give better accuracy on tiny signs than regular and large signs.<br><br>
                     
-                    So I developed a simple moving window to overcome this issue.
+                    ✔ So I developed a simple moving window to overcome this issue.<br><br>
                 
                 
                 `,
                 'description' : `
                 
-                    The moving window method is a unique way of solving an object detection task with a classification algorithm.
+                    ✔ The moving window method is a unique way of solving an object detection task with a classification algorithm.<br><br>
 
-                    When the user adds an image, the window of smaller resolution is created and rolled over the image.
+                    ✔ When the user adds an image, the window of smaller resolution is created and rolled over the image.<br><br>
                     
-                    Every time this window moves by a specific distance/pixel, an image classification algorithm is executed.
+                    ✔ Every time this window moves by a specific distance/pixel, an image classification algorithm is executed.<br><br>
                     
-                    At a certain point, if the image classification algorithm classifies the window/sub-image as a sign, then that window is marked as a sign/object, and a sign-label is tagged to that image.
+                    ✔ At a certain point, if the image classification algorithm classifies the window/sub-image as a sign, then that window is marked as a sign/object, and a sign-label is tagged to that image.<br><br>
                     
-                    In the end, we have all possible signs in the image along with the coordinates of the sign, no matter the size of the sign.
+                    ✔ In the end, we have all possible signs in the image along with the coordinates of the sign, no matter the size of the sign.<br><br>
                 `,
                 'outcome' : `
                 
-                    I won 2nd prize with this project in a national level hackathon held by the Indian Institute of Technology, Bombay.
+                    ✔ I won 2nd prize with this project in a national level hackathon held by the Indian Institute of Technology, Bombay.<br><br>
 
-                    The accuracy, especially for tiny signs in the image, is 30% more than the conventional methods.
+                    ✔ The accuracy, especially for tiny signs in the image, is 30% more than the conventional methods.<br><br>
                                 
                 `,
                 'image' : 'object.png',
-                'skills' : ''
-            },
-            {
-                'title' : 'Automation',
-                'purpose' : 'just',
-                'description' : 'none',
-                'outcome' : 'none too',
-                'image' : 'automate.jpg',
-                'skills' : ''
-            },
-            {
-                'title' : 'Spotty - Desktop Assisstant',
-                'purpose' : 'just',
-                'description' : 'none',
-                'outcome' : 'none too',
-                'image' : 'spotty.jpg',
-                'skills' : ''
-            },
-            {
-                'title' : 'Human Machine Interaction System',
-                'purpose' : 'just',
-                'description' : 'none',
-                'outcome' : 'none too',
-                'image' : 'hm.jpg',
-                'skills' : ''
-            },
-            {
-                'title' : 'Buggy - Debugging programming errors',
-                'purpose' : 'just',
-                'description' : 'none',
-                'outcome' : 'none too',
-                'image' : 'debug.jpg',
-                'skills' : ''
+                'skills' : ['Pyhton', 'Keras', 'Neural Networks', 'Matplotlib', 'openCV', 'fastai', 'GCP', 'Git', 'Google Collab GPU', 'VSCode']
             },
             {
                 'title' : 'Auto EDA',
-                'purpose' : 'just',
-                'description' : 'none',
-                'outcome' : 'none too',
+                'purpose' : `
+                    
+                    ✔ After I learned EDA skills up to some level, I realized there are many steps that are being repeated in all projects/datasets.<br><br>
+
+                    ✔ So I created a simple module that takes any dataset and performs basic EDA steps.<br><br>
+                    
+                    ✔ Gradually, I started adding more features that enable the user to perform minimal possible EDA himself during the process.<br><br>
+
+                `,
+                'description' : `
+                    
+                    ✔ Auto EDA is an application where users can upload the data and get the EDA reports generated automatically. <br><br>
+
+                    ✔ I included both automated and manual options if the user wants to make any changes or add new inputs in the EDA.<br><br>
+                    
+                    ✔ I also used python packages like pandas-profiling, sweetviz, D-Tale, and Auto viz to generate charts and reports in a single click.<br><br>
+                    
+                    ✔ The auto EDA application generates insights like charts, tables, heatmap, correlation matrix, etc. that helps users to understand the data clearly.<br><br>
+                
+                
+                `,
+                'outcome' : `
+                
+                    ✔ It reduced repetitious tasks while exploring any dataset.<br><br>
+
+                    ✔ Charts and plots helped to understand data in a better way.<br><br>
+                    
+                    ✔ Data with 600,000 rows was analyzed in less than 2 seconds.<br><br>
+                    
+                    ✔ These analyses and reports can be exported, which helped them import easily using python.<br><br>
+
+                `,
                 'image' : 'eda.jpg',
-                'skills' : ''
+                'skills' : ['Pyhton', 'Javascript', 'Pandas', 'Numpy', 'Bootstrap', 'profiling', 'Git', 'Heroku', ]
+            },
+            {
+                'title' : 'Automation',
+                'purpose' : `
+                
+                    ✔ There were many activities that I used to carry out every day. Once I started learning to program, I was curious if can automate everything, and it happens every day without my input at a given time.<br><br>
+
+                    ✔ So I started writing automation scripts. It began with simple alarms, notifications, sending WhatsApp messages.<br><br>
+                    
+                    ✔ And soon, I started exploring new things that help to optimize automation; web scraping and selenium.<br><br>
+                    
+                    ✔ I now can automate any monotonous activities, primarily browser-based tasks (filling google forms,  copy paste work, repetitive tasks etc)<br><br>
+
+                `,
+                'description' : `
+                
+                    ✔ Automation scripts are simple programs that automate monotonous and repetitious tasks.<br><br>
+
+                    ✔ I automate most of the activities I perform in my day-to-day life by putting my knowledge into use.<br><br>
+                    
+                    ✔ I used selenium to write python scripts that help to perform specific tasks on the browser.<br><br>
+                    
+                    ✔ Chrome driver helps to access the chrome web browser using selenium in python.<br><br>
+                    
+                    ✔ If the task is repetitive, then automation will carry out the job effectively in a very short time.   <br><br>             
+                
+                `,
+                'outcome' : `
+                    
+                    ✔ Won 2nd in Internshala Student Partner (ISP 19) among 40,000+ students by automating given tasks without human intervention.<br><br>
+
+                    ✔ Automated multiple web scraping tasks that reduced time consumption by ten times compared to manually performing the same task.<br><br>
+
+                    ✔ Automated login for zerodha api for multiple accounts to get request token by a single click.<br><br>
+                                
+                `,
+                'image' : 'automate.jpg',
+                'skills' : ['Pyhton', 'Selenium', 'Pandas', 'Chromedriver', 'Scrapy', 'Git', 'MongoDB', 'Google Collab']
+            },
+            {
+                'title' : 'Buggy - Debugging programming errors',
+                'purpose' : `
+
+                    ✔ When I was a beginner in programming, I used to make many mistakes. My code was not perfect, and it had many errors. <br><br>
+
+                    ✔ I was a self-learner and sometimes I used to spend hours together to fix the errors. <br><br>
+
+                    ✔ So I designed a simple python script, which helps the user find a solution in less than a second.<br><br>
+                
+                `,
+                'description' : `
+                
+                    ✔ Buggy is the python script that enables the user to find a solution for the error encountered during programming.<br><br>
+
+                    ✔ Users can copy-paste the question as an input; the algorithm using cosine-similarity matching searches for a similar question and provide answers to the user.<br><br>
+
+                    ✔ It also provides the top 10 related solutions to the error the user entered.<br><br>
+
+                    ✔ Along with the solution for the error, the results also provide links, blogs, and related code snippet references.  <br><br>
+
+                    ✔ I also wrote and published a research paper on this work named 'System Model to Effectively Understand Programming Error Messages Using Similarity Matching and Natural Language Processing' at International Conference on Cybernetics, Cognition and Machine Learning Applications.<br><br>
+
+                `,
+                'outcome' : `
+                
+                    ✔ Although I developed this project when I was a beginner, It helped me solve many errors during my learning phase and saved hundreds of hours.<br><br>
+
+                    ✔ I shared this with my peers and received positive feedback.<br><br>
+                    
+                    ✔ Future Work: We are working on the next version of this project, i.e., an extension for IDE's and browsers. <br><br>
+                    
+                    ✔ When the user encounters an error, the extension will automatically detect the error and provide the solution to the user.<br><br>
+                    
+                    ✔ Users can click on the suggestion by the extension to replace the original piece of code with the correct version of code.<br><br>
+
+                `,
+                'image' : 'debug.jpg',
+                'skills' : ['Pyhton', 'Cosine Similarity MAtching', 'NLP', 'Sklearn', 'Keras', 'Google Collab', 'Neural Networks', 'VSCode', 'Selenium', 'Git']
+            },
+            {
+                'title' : 'Spotty - Desktop Assisstant',
+                'purpose' : `
+                
+                    ✔ Spotty is my first project, which I developed during my first semester in college.<br><br>
+
+                    ✔ There is a character called 'Iron Man' in MCU (Marvel Cinematic Universe). The character designs a natural language UI using Artificial Intelligence. I was intrigued by how technology can be used and was interested in building an AI bot myself.<br><br>
+                    
+                    ✔ So I wrote a basic python script that works as a desktop assistant. It performs most of the generic tasks that humans do every day.<br><br>
+
+                `,
+                'description' : `
+                
+                    ✔ Spotty is an entirely voice-based assistant that listens to your command and replies with an audio output.<br><br>
+
+                    ✔ Users can ask questions or assign any task by saying it in the usual language (English).<br><br>
+                    
+                    ✔ Few basic tasks performed are<br>
+                        &nbsp;&nbsp;&nbsp;- Play music<br>
+                        &nbsp;&nbsp;&nbsp;- Play videos (youtube, server, local storage)<br>
+                        &nbsp;&nbsp;&nbsp;- Increase and decrease volume<br>
+                        &nbsp;&nbsp;&nbsp;- Increase and decrease brightness<br>
+                        &nbsp;&nbsp;&nbsp;- Search something on the web<br>
+                        &nbsp;&nbsp;&nbsp;- Daily updates<br>
+                        &nbsp;&nbsp;&nbsp;- Logout/Login<br>
+                        &nbsp;&nbsp;&nbsp;- Shutdown/Restart<br>
+                        &nbsp;&nbsp;&nbsp;- Keep an alarm<br><br>
+                
+                `,
+                'outcome' : `
+                
+                    ✔ A basic UI that helped me perform simple tasks every day just by sitting at my work table.<br><br>
+
+                    ✔ There are two voices available; male and female voices.<br><br>
+                    
+                    ✔ New functions can be added explicitly to the program/code without any complications.<br><br>
+                
+                `,
+                'image' : 'spotty.jpg',
+                'skills' : ['Pyhton', 'Testing', 'Pyttx3', 'Speech Recognition', 'Panads', 'VSCode', 'Git']
+            },
+            {
+                'title' : 'Portfolio',
+                'purpose' : `
+
+                    ✔ I always wanted to build my portfolio website because I like to talk about my work<br>
+                        &nbsp;&nbsp;&nbsp;- why I do something<br>
+                        &nbsp;&nbsp;&nbsp;- what did I do<br>
+                        &nbsp;&nbsp;&nbsp;- what are the outcomes/advantages <br><br>
+                    
+                    ✔ It also shows how good I am at what I do. A good, responsive website will reflect my skills in web development.<br><br>
+                    
+                    ✔ Additionally, It wasn't easy to cover my four-year journey on a single-page resume, so I built a website to showcase my skills and describe my work in detail.<br><br>
+
+                `,
+                'description' : `
+                
+                    ✔ My portfolio website consists of ten sections<br>
+                        &nbsp;&nbsp;&nbsp;- Home<br>
+                        &nbsp;&nbsp;&nbsp;- About<br>
+                        &nbsp;&nbsp;&nbsp;- Education<br>
+                        &nbsp;&nbsp;&nbsp;- Skills<br>
+                        &nbsp;&nbsp;&nbsp;- Research<br>
+                        &nbsp;&nbsp;&nbsp;- Work Experience<br>
+                        &nbsp;&nbsp;&nbsp;- Projects<br>
+                        &nbsp;&nbsp;&nbsp;- Achievements<br>
+                        &nbsp;&nbsp;&nbsp;- Extra-curricular<br>
+                        &nbsp;&nbsp;&nbsp;- Contact<br><br>
+                    
+                    ✔ It is completely portable; Data from every section is being fetched from a JSON file, where new users can change/add/remove the information.<br><br>
+                    
+                    ✔ The website is responsive, that creates dynamic changes to the appearance of a website, depending on the screen size and orientation of the device being used to view it.<br><br>
+
+                `,
+                'outcome' : `
+                
+                    ✔ I can display my work in detail so that the reader will get a complete understanding of my work.<br><br>
+
+                    ✔ People can use the same template, change the information in the JSON file and use it as their portfolio website.<br><br>
+                    
+                    ✔ People can reach out to me if interested in working on similar and interesting projects. It helps me to connect with new people and allows me to learn new things. <br><br>
+                    
+                    ✔ It also helps me to develop and grow my network.<br><br>
+                
+                `,
+                'image' : 'portfolio.jpg',
+                'skills' : ['JavaScript', 'Iconscout', 'JOSN', 'Netlify', 'Git', 'VSCode']
             }
         ],
 
@@ -916,12 +1085,18 @@ close.forEach((card,i) => card.addEventListener('click', () => {
     }
     )}))
     
-let projects = document.getElementById('project__cards')
+let projects_ = document.getElementById('project__cards')
 
 data.projects.forEach(project => {
-    projects.innerHTML += '<div style="background-image: url(images/'+project.image+');" class="project__card" id="project__card"><p class="project__name" id="project__name">'+project.title+'</p><p class ="more">view more...</p></div><div class="project__modal" id="modal"><div class="modal__content" id="modal-content"> <i class="uil uil-times project__modal__close"></i><p class="modal__title" id="modal__title">'+project.title+'</p></br> <div class="modal__set" id=modal__set"><div class = "proj__sections"><p class="outcome" id="outcome">Purpose</p><hr>'+project.purpose+'</div><div class = "proj__sections"><p class="outcome" id="outcome">Description</p><hr>'+project.description+' </div><div class = "proj__sections"><p class="outcome" id="outcome">Outcome</p><hr>'+project.outcome+'</div></div> <div class="github" id="github"><i class="uil uil-github aa icon__github"><span class="github__text">&nbsp;&nbsp; GitHub</span></i></div></div></div>'
+    projects_.innerHTML += '<div style="background-image: url(images/'+project.image+');" class="project__card" id="project__card"><p class="project__name" id="project__name">'+project.title+'</p><p class ="more">view more...</p></div><div class="project__modal" id="modal"><div class="modal__content" id="modal-content"> <i class="uil uil-times project__modal__close"></i><p class="modal__title" id="modal__title">'+project.title+'</p><br><div class ="proj__skills" id ="proj__skills '+project.title+'"></div></br> <div class="modal__set" id=modal__set"><div class = "proj__sections"><p class="outcome" id="outcome">Purpose</p><hr>'+project.purpose+'</div><div class = "proj__sections"><p class="outcome" id="outcome">Description</p><hr>'+project.description+' </div><div class = "proj__sections"><p class="outcome" id="outcome">Outcome</p><hr>'+project.outcome+'</div></div> <div class="github" id="github"><i class="uil uil-github aa icon__github"><span class="github__text">&nbsp;&nbsp; GitHub</span></i></div></div></div>'
 })
     
+data.projects.forEach(proj => {
+    proj.skills.forEach(skill => {
+        document.getElementById('proj__skills ' + proj.title).innerHTML += '<span class = "projects__skills">'+skill+'</span>'
+    })
+})
+
 let projectCards = document.querySelectorAll('.project__card');
 let projectModals = document.querySelectorAll('.project__modal')
 let projectClose = document.querySelectorAll('.project__modal__close')

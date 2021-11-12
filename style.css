@@ -511,6 +511,20 @@ hr{
     padding: 3px 8px 3px;
 
 }
+.projects__skills{
+    font-size: 15px;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 3px 8px 3px;
+    margin: 5px;
+
+}
+.proj__skills{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
 
 .modal__close:hover,
 .project__modal__close:hover{
@@ -976,7 +990,7 @@ background-color: rgba(0, 0, 0, 0.4);
 
 .dec__sections,
 .proj__sections{
-    margin: 5px;
+    margin: 15px;
 }
 
 .contact__text{
@@ -1060,7 +1074,7 @@ background-color: rgba(0, 0, 0, 0.4);
         width: 50%;
     }
     .certi__img{
-        width: 30%;
+        width: 25%;
         /* max-width: 300px; */
     }
     .spec_{
@@ -1157,7 +1171,7 @@ background-color: rgba(0, 0, 0, 0.4);
 
     }
     .proj__sections{
-        margin: 5px;
+        margin: 15px;
         width: 33%;
     }
     .dec__sections{
