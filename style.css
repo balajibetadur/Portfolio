@@ -365,18 +365,20 @@ a:hover{
 
 .card,
 .card__pub{
-    width: 300px;
+    width: 100%;
+    max-width: 400px;
     min-height: 200px;
     background-color: rgba(58, 57, 57, 0.13);
     border-radius: 10px;
-    margin: 20px;   
+    margin: 20px 0;   
     box-shadow: 0 5px 10px 0.1px rgba(0, 0, 0, 0.4);
     position: relative;
 }
 
 
 .card__img{
-    width: 300px;
+    width: 100%;
+    /* max-width: 400px; */
     height: 160px;
     object-fit: cover;
     border-radius: 10px 10px 0 0;
@@ -555,14 +557,20 @@ hr{
     display: flex;
     flex-wrap: wrap;
     justify-content:center;
+    padding: 0;
+    margin: 0;
 }
 
+.certi__img__sec{
+    padding: 30px;
+}
 .project__card{
-    width: 300px;
+    width: 100%;
+    max-width: 350px;
     height: 150px;
     border-radius: 10px;
     border: 1px grey solid;
-    margin: 15px;
+    margin: 15px 0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -718,6 +726,7 @@ background-color: rgba(0, 0, 0, 0.4);
     width: 50%;
 }
 
+
 .certi__cards{
     display: flex;
     flex-wrap: wrap;
@@ -736,7 +745,7 @@ background-color: rgba(0, 0, 0, 0.4);
 .certi__card{
     
     text-decoration: none;
-    width: 80%;
+    width: 90%;
     border-radius: 10px;
     height: 150px;
     /* background-color: rgb(18, 13, 37); */
@@ -745,7 +754,7 @@ background-color: rgba(0, 0, 0, 0.4);
     background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     
     text-align: center;
-    margin: 10px;
+    margin: 10px 0;
     box-shadow: 0 0 10px 1px grey;
     align-items: center;
     justify-content: center;
@@ -754,7 +763,7 @@ background-color: rgba(0, 0, 0, 0.4);
     display: flex;
     font-size: 1.25rem;
     font-weight: 500;
-    max-width: 300px
+    max-width: 330px
 }
 
 .specs{
@@ -762,10 +771,11 @@ background-color: rgba(0, 0, 0, 0.4);
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
+    padding: 20px;
 }
 
 .spec_{
-    width: 80%;
+    width: 100%;
     max-width: 400px;
     height: 200px;
     border-radius: 10px;
@@ -826,12 +836,13 @@ background-color: rgba(0, 0, 0, 0.4);
     color: var(--text-color-inverse);
     /* margin-top: 8%; */
     width: 100%;
-    min-height: 200px;
+    min-height: 150px;
     padding: 10px;
     display: flex;
     align-items: center;
     text-align: center;
     justify-content: center;
+    margin-bottom: 20px;
 
 }
 
@@ -852,9 +863,10 @@ background-color: rgba(0, 0, 0, 0.4);
     right: 10px;
     opacity: 0.3;
     font-size: 0.8rem;
-    /* background-color: rgba(255, 255, 255, 0.8);
-    padding: 3px;
-    border-radius: 5px; */
+    background-color: rgba(255, 255, 255, 0.3);
+    padding: 0 5px;
+    border-radius: 5px;
+    color: var(--text-color-inverse);
 }
 .view__more{
     position: absolute;
@@ -1006,8 +1018,9 @@ background-color: rgba(0, 0, 0, 0.4);
 }
 
 .contact__text{
-    padding: 10px 150px 20px;
+    padding: 30px 30px ;
     text-align: center;
+
 }
 
 @media (min-width: 750px) { 
