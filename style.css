@@ -359,8 +359,8 @@ a:hover{
     font-size: 1.5rem;
     font-weight: 600px;
     text-align: center;
-    padding-top: 30px;
-    padding: 20px;
+    padding-top: 80px;
+    padding-bottom: 30px;
 }
 
 .card,
@@ -385,6 +385,7 @@ a:hover{
     z-index: -10;
 }
 
+
 .card:hover{
     cursor: pointer;
 }
@@ -401,7 +402,7 @@ a:hover{
     margin-top: 15px;
     padding: 2px 5px 2px;
     font-size: 0.8rem;
-    max-width: 230px;
+    max-width: 90%;
 }
 
 .card__name{
@@ -412,7 +413,7 @@ a:hover{
     margin-top: 15px;
     padding: 2px 5px 2px;
     font-size: 0.8rem;
-    max-width: 230px;
+    max-width: 90%;
 }
 
 .details{
@@ -440,7 +441,8 @@ a:hover{
 .ints{
     display: flex;
     flex-wrap: wrap;
-    justify-content:center;
+    /* align-items: center; */
+    justify-content: center;
 }
 
 
@@ -467,7 +469,7 @@ a:hover{
 
     padding: 15px;
     border: 1px solid #888;
-    width: 80%;
+    width: 90%;
     border-radius: 10px;
     position: relative;
     z-index: 10000;
@@ -507,18 +509,18 @@ hr{
 }
 
 .project__skill{
-    font-size: 15px;
+    font-size: 12px;
     background-color: rgba(0, 0, 0, 0.2);
     border-radius: 5px;
     padding: 3px 8px 3px;
 
 }
 .projects__skills{
-    font-size: 15px;
+    font-size: 12px;
     background-color: rgba(0, 0, 0, 0.2);
     border-radius: 5px;
     padding: 3px 8px 3px;
-    margin: 5px;
+    margin: 2px;
 
 }
 .proj__skills{
@@ -581,6 +583,8 @@ hr{
     
     
 }
+
+
 
 .header{
     visibility: hidden;
@@ -796,6 +800,7 @@ background-color: rgba(0, 0, 0, 0.4);
     display: flex;
     align-items: center;
 }
+
 
 .ach__img{
     width: 90%;
@@ -1022,9 +1027,36 @@ background-color: rgba(0, 0, 0, 0.4);
     text-align: center;
 
 }
+.certi__img__sec{
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
 
 @media (min-width: 750px) { 
 
+    .achievement{
+        font-size: 18px;
+        font-weight: 550;
+        color: var(--text-color-2);
+    }
+
+    .sub__title{
+        font-weight: 500;
+        font-size: 30px;
+    }
+    .card,
+    .card__pub,
+    .project__card,
+    .spec_{
+        width: 45%;
+        max-width: 400px;
+        margin: 10px;
+    }
+    .adj__sec{
+        width: 100%;
+    }
+
+    
     .menu{
         font-size: 1rem;
     }
@@ -1069,6 +1101,15 @@ background-color: rgba(0, 0, 0, 0.4);
         font-size: 2rem;
       }
 
+    .projects__skills,
+    .project__skill{
+        font-size: 2vw;
+    }
+
+    .modal__title{
+        font-size: 3.5vw;
+        /* font-weight: 500; */
+    }
     .top{
         width: 2.5rem;
         height: 2.5rem;
@@ -1089,29 +1130,39 @@ background-color: rgba(0, 0, 0, 0.4);
       }
 
     .adj__img{
-        width: 40%;
+        width: 45%;
         max-width: 400px;
     }
     .adj__text,
     .edu__adj__text{
-        font-size: 1.2rem;
+        width: 50%;
+        font-size: 2vw;
         color: var(--text-color-2);
-        padding: 30px;
+        padding:  0 0 0 30px;
         max-width: 600px;
-        text-align: center;
+        text-align: left;
         font-weight: 500;
+    }
+
+    .contact__text{
+        font-weight: 500;
+        color: var(--text-color-2);
+        font-size: 2vw;
     }
 
     .certi__img{
         width: 25%;
         /* max-width: 300px; */
     }
-    .spec_{
-        width: 400px;
+    .certi__card{
+        width: 40%;
+        max-width: 350px;
+        margin: 10px;
     }
     .ach__img{
         width: 60%;
         padding-bottom: 30px;
+
         
     }
 
@@ -1126,8 +1177,11 @@ background-color: rgba(0, 0, 0, 0.4);
     } */
     
     .certi__card{
-        max-width: 300px
+        max-width: 300px;
+        margin: 10px;
     }
+
+ 
 
     .header{
         visibility: hidden;
@@ -1186,13 +1240,43 @@ background-color: rgba(0, 0, 0, 0.4);
     }
 
     .edu_sec{
-        min-height: 210px;
+        min-height: 240px;
+    }
+
+    .ints{
+        margin: 0;
+        padding: 0;
+    }
+
+    .card__name,
+    .card__name__pub{
+        max-width: 90%;
     }
 
     
 }
 
-@media (min-width: 1200px) { 
+@media (min-width: 1000px) { 
+
+    .card,
+    .project__card,
+    .spec_{
+        width: 45%;
+        max-width: 400px;
+        margin: 10px;
+        /* min-height: 200px; */
+    }
+    .card__pub{
+        width: 55%;
+        max-width: 470px;
+        margin: 10px;
+        min-height: 220px;
+    }
+
+    .contact__text{
+        font-size: 20px;
+        padding: 0 50px 20px 50px;
+    }
 
     .adj__text,
     .edu__adj__text{
@@ -1331,24 +1415,16 @@ background-color: rgba(0, 0, 0, 0.4);
         padding-top: 70px;
     }
 
-    .card__pub{
-        width: 450px;
-    }
-    .card,
-    .card__img{
-        width: 350px;
-    }
-
+    
+  
     .card__name{
-    max-width: 350px;
+    max-width: 90%;
 }
     .card__name__pub{
-        max-width: 350px;
+        max-width: 90%;
     }
 
-    .project__card{
-        width: 350px;
-    }
+   
     .modal__set{
         display: flex;
         flex-direction: row;
@@ -1440,7 +1516,7 @@ background-color: rgba(0, 0, 0, 0.4);
     .achievement{
         font-size: 1.1rem;
         font-weight: 600;
-        opacity: 0.7;
+        color: var(--text-color-2);
     }
 
     .ach__img{
@@ -1470,7 +1546,7 @@ background-color: rgba(0, 0, 0, 0.4);
         align-items: center;
     }
     .details__pub{
-        padding: 40px;
+        padding: 30px;
         min-height: 150px;
     }
     
@@ -1483,5 +1559,24 @@ background-color: rgba(0, 0, 0, 0.4);
     .education__title{
         padding-top: 80px;
         font-size: 3rem;
+    }
+
+    .modal__title{
+        font-size: 35px;
+    }
+
+    .project__skill,
+    .projects__skills{
+        font-size: 17px;
+    }
+
+    .projects__skills{
+        margin: 5px;
+    }
+
+    .adj__text{
+        padding-left: 80px;
+        width: 50%;
+        text-align: left;
     }
   }
