@@ -227,7 +227,7 @@ a:hover{
 }
 
 .resume{
-    margin-top: 25px;
+    margin-top: 15px;
     width: 130px;
     background-color: var(--theme);
     border-radius: 5px;
@@ -725,8 +725,17 @@ background-color: rgba(0, 0, 0, 0.4);
     margin: 30px;
 
 }
+.certi__card:hover{
+    color: var(--text-color-inverse);
+}
+
+.spec_:hover{
+    
+    color: var(--text-color-inverse);
+}
 .certi__card{
     
+    text-decoration: none;
     width: 80%;
     border-radius: 10px;
     height: 150px;
@@ -1218,6 +1227,9 @@ background-color: rgba(0, 0, 0, 0.4);
     .title__name{
         padding-bottom: 2rem;
         font-size: 4rem;
+        margin: 0;
+        /* padding: 0; */
+        padding-top: 0;
     }
     
     .blob{
@@ -1234,20 +1246,22 @@ background-color: rgba(0, 0, 0, 0.4);
     }
 
     .resume{
-        margin-top: 5rem;
+        margin-top: 3rem;
         margin-bottom: 5rem;
 
     }
 
     .description{
-        width: 700px;
+        width: 80%;
     }
 
     .about__desc{
         width: 40%;
         font-size: 1.3rem;
     }
-
+    .project__title{
+        font-size: 3rem;
+    }
     .about__title{
         font-size: 3rem;
         margin-bottom: 3rem;
@@ -1407,10 +1421,10 @@ background-color: rgba(0, 0, 0, 0.4);
     
 
     .achi__title{
-        font-size: 2.2rem;
+        font-size: 3rem;
     }
     .certi__title{
-        font-size: 2.2rem;
+        font-size: 3rem;
         padding-top: 80px;
     }
    
