@@ -975,7 +975,7 @@ data.Achievements.forEach(achi => {
 
 let header = document.getElementById('header');
 data.menu.forEach(option => {
-    header.innerHTML += '<span class = "main__option"><a  href = "' + option.to + '">' + option.text + '</a></span>'
+    header.innerHTML += '<a  class = "main__option" href = "' + option.to + '">' + option.text + '</a>'
 })
 
 data.socialMedia.forEach(icon => {
