@@ -133,8 +133,23 @@ let data = {
                 'name': 'Deep Learning Research Intern',
                 'location': '@ Indian Institute of Technology, Bhubaneshwar',
                 'duration': 'Sep 20 - Present',
-                'description': ['test'],
-                'outcome': ['test']
+                'description': `
+                
+                    ✔ I Worked on path-planning algorithms for a biped robot in a static environment.<br><br>
+
+                    ✔ Implemented and compared multiple algorithms, namely<br>
+                            &nbsp;&nbsp;&nbsp;- fast-marching<br>
+                            &nbsp;&nbsp;&nbsp;- fast-sweeping<br>
+                            &nbsp;&nbsp;&nbsp;- a-star<br><br>
+                    
+                    ✔ Implemented border collision function to avoid collision of the object with the borders/edges of the obstacles.<br><br>
+                `,
+                'outcome': `
+                
+                    ✔ Implemented Fast Sweeping algorithm executed efficiently among all other algorithms.<br><br>
+
+                    ✔ Time taken to find a path between 2 points in static environment for FSM was lesser than FMM and a-star.<br><br>
+                `
             },
 
             {
