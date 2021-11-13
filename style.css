@@ -486,6 +486,9 @@ a:hover{
     font-weight: 600px;
     text-align: center;
     padding-right: 10px;
+    /* background-color: rgba(0, 0, 0, 0.08);
+    border-radius: 10px;
+    margin: 0 14px; */
 }
 
 hr{
@@ -510,14 +513,14 @@ hr{
 
 .project__skill{
     font-size: 12px;
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(0, 0, 0, 0.1);
     border-radius: 5px;
     padding: 3px 8px 3px;
 
 }
 .projects__skills{
     font-size: 12px;
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(0, 0, 0, 0.1);
     border-radius: 5px;
     padding: 3px 8px 3px;
     margin: 2px;
@@ -1019,7 +1022,12 @@ background-color: rgba(0, 0, 0, 0.4);
 
 .dec__sections,
 .proj__sections{
-    margin: 15px;
+    /* margin: 15px; */
+    
+    background-color: rgba(0, 0, 0, 0.07);
+    border-radius: 10px;
+    margin: 15px 0;
+    padding: 15px;
 }
 
 .contact__text{
@@ -1299,8 +1307,9 @@ background-color: rgba(0, 0, 0, 0.4);
 
     }
     .proj__sections{
-        margin: 15px;
+        margin: 7px;
         width: 33%;
+        padding: 15px;
     }
     .dec__sections{
         margin: 5px;

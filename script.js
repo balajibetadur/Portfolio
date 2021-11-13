@@ -126,7 +126,8 @@ let data = {
                         ✔ Working on a research paper that includes both approaches for creativity evaluation in the text and the variance approach for images.
 
                 
-                 `
+                 `,
+                 'modal-class': 'test1'
             },
             {
                 'image': 'robot.jpg',
@@ -149,7 +150,8 @@ let data = {
                     ✔ Implemented Fast Sweeping algorithm executed efficiently among all other algorithms.<br><br>
 
                     ✔ Time taken to find a path between 2 points in static environment for FSM was lesser than FMM and a-star.<br><br>
-                `
+                `,
+                'modal-class': 'test'
             },
 
             {
@@ -176,7 +178,8 @@ let data = {
                         
                         ✔ Published a research paper "Smart Sampark-An approach towards building a responsive system for Kisan Call Center" at "IEEE Explore" (co-author).<br><br>
 
-                `
+                `,
+                'modal-class': 'test'
             },
             // {
             //     'image' : 'chatBot.jpg', 
@@ -1068,7 +1071,7 @@ let works = document.getElementById('r__internships')
 
 data.work.Research_Internships.forEach(work => {
 
-    works.innerHTML += '<div class="card" id="card"><div class="card__name" id="card__name">' + work.location + '</div> <img class = "card__img"src="images/' + work.image + '" alt="" srcset=""> <div class="details" id="details"> <p class="location" id="location"> ' + work.name + '</p><p class="duration" id="duration"> ' + work.duration + ' </p> </div><p class ="view__more">view</p></div><div class="modal" id="modal"><div class="modal__content" id="modal-content"> <i class="uil uil-times modal__close close__ind"></i><p class="modal__title" id="modal__title">' + work.name + '</p> </br><div class="modal__set" id="modal__set"> <div class ="dec__sections"><p class="outcome" id="outcome">Description</p><hr>' + work.description + '</div><div class ="dec__sections"> <p class="outcome" id="outcome">Outcome</p><hr>' + work.outcome + '</div></div> </div>'
+    works.innerHTML += '<div class="card" id="card '+work["modal-class"]+'"><div class="card__name" id="card__name">' + work.location + '</div> <img class = "card__img"src="images/' + work.image + '" alt="" srcset=""> <div class="details" id="details"> <p class="location" id="location"> ' + work.name + '</p><p class="duration" id="duration"> ' + work.duration + ' </p> </div><p class ="view__more">view</p></div><div class="modal" id="modal"><div class="modal__content" id="modal-content'+work["modal-class"]+'"> <i class="uil uil-times modal__close close__ind"></i><p class="modal__title" id="modal__title">' + work.name + '</p> </br><div class="modal__set" id="modal__set"> <div class ="dec__sections"><p class="outcome" id="outcome">Description</p><hr>' + work.description + '</div><div class ="dec__sections"> <p class="outcome" id="outcome">Outcome</p><hr>' + work.outcome + '</div></div> </div>'
 })
 
 let pubs = document.getElementById('pubs')
