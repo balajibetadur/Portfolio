@@ -113,7 +113,7 @@ let data = {
 
                         ✔ Further, the <b>BERT NLP model</b> will assess the subjectivity of text using <b>21 factors</b> like polarity and question intent. <br><br>
                         
-                        ✔ Creativity of images is measured by <b>similarity index. Lesser the similarity, the more the creativity</b> (there are other factors that contribute to text creativity).<br><br>
+                        ✔ Creativity of images is measured by <b>similarity index (variance method). Lesser the similarity, the more the creativity</b>  (there are other factors that contribute to text creativity).<br><br>
                         
 
                  `,
@@ -127,7 +127,8 @@ let data = {
 
                 
                  `,
-                 'modal-class': 'test1'
+                 'modal-class': 'test1',
+                 'line' : 'Worked on Creativity Index evaluation of text and images, analyzed 20 different subjectivity features of text to find the creativity index of text. In images, creativity is inversely proportional to the similarity index.'
             },
             {
                 'image': 'robot.jpg',
@@ -151,7 +152,8 @@ let data = {
 
                     ✔ Time taken to find a path between 2 points in static environment for FSM was lesser than FMM and a-star.<br><br>
                 `,
-                'modal-class': 'test'
+                'modal-class': 'test',
+                 'line' : 'Implemented and compared path planning algorithms like Fast Marching Method, Fast Sweeping Method, and A Star for a biped robot in a static environment.'
             },
 
             {
@@ -179,7 +181,8 @@ let data = {
                         ✔ Published a research paper "Smart Sampark-An approach towards building a responsive system for Kisan Call Center" at "IEEE Explore" (co-author).<br><br>
 
                 `,
-                'modal-class': 'test'
+                'modal-class': 'test',
+                 'line' : 'An agricultural chatbot was developed to assist farmers that provide the answers using various online resources along with other insights using NLP and cosine similarity matching.'
             },
             // {
             //     'image' : 'chatBot.jpg', 
@@ -294,7 +297,8 @@ let data = {
                     ✔ Dynamic infrastructure enables to switch to multiple APIs within 2 seconds by user input. <br><br>
 
 
-             `
+             `,
+                 'line' : 'Developed an automated, end-to-end, customizable, cloud-based quantitative trading platform that can monitor, trade, generate signals, perform analytical operations, and back-test historical data using Python, Machine Learning, and NLP.'
             },
 
             {
@@ -346,7 +350,8 @@ let data = {
 
 
 
-               `
+               `,
+                 'line' : 'Deployed Dishes Classification and Object Detection modules in an AI assistant in food delivery applications—details like nutrition distribution and extracted ingredients about the dish selected by the user will be displayed.'
             },
 
             {
@@ -392,7 +397,8 @@ let data = {
 
                     ✔ New feature: Employer can upload the pdf on the portal, which proceeds with extracting the data from the pdf using OCR and other python frameworks. This further is matched with the job description/job requirement to get the job-profile index.<br><br>
                     
-               `
+               `,
+                 'line' : 'An AI-based platform that enables the user to find an appropriate job based on the resume/profile. Employers can also match applicant profiles with job descriptions using profile extractor.'
             },
 
             {
@@ -433,7 +439,8 @@ let data = {
                     ✔ Redirecting posts from social media to blog and vice versa increased the number of users visiting the website by 40%.<br><br>
                     
                     ✔ Allowing other users to add posts widened the reach and increased the revenue by 5%.
-               `
+               `,
+                 'line' : 'A hybrid application for blog and shopping that enables a user to browse the blog and buy products. Verified users can also add posts to the blog. The application can be linked with social media platforms to exchange posts.'
             }
         ],
 
@@ -588,7 +595,7 @@ let data = {
 
                     ✔ If the user is completely unaware of machine learning, he can select a standard training option that will train the model with different algorithms, a different combination of parameters, and different features from the dataset.<br><br>
 
-                    ✔ If the user is partially aware of technicalities, he can modify select any algorithms, filter algorithms based on training time, modify any parameter of selected algorithm, enable/disable grid search (try different parameters in different combinations to get the model with the best accuracy) and return the model with the best accuracy.<br><br>
+                    ✔ If the user is partially aware of technicalities, he can modify select any algorithms, filter algorithms based on training time, modify any parameter of selected algorithm, enable/disable grid search--hyperparameter tuning (trying different parameters in different combinations to get the model with the best accuracy) and return the model with the best accuracy.<br><br>
 
 
 
@@ -599,16 +606,19 @@ let data = {
 
                     ✔ Apart from a few algorithms like transformers and deep learning algorithms, other algorithms will be trained in less than 2 seconds.<br><br>
 
+                    ✔ Not only can the user train the models, but he can also save every trained model. If the user wishes to revert to the previous model, he can select the required model and download it or use the model to predict new samples.<br><br>
+
                     ✔ Average time for standard training (all algorithms, all parameters, different combinations) is less than 10 seconds.<br><br>
 
                     ✔ This platform also provides an interface for predicting new samples (single document and bulk collection) and enables users to download the output in any required format.<br><br>
 
-                    ✔ Not only can the user train the models, but he can also save every trained model. If the user wishes to revert to the previous model, he can select the required model and download it or use the model to predict new samples.<br><br>
+                    
                     
                 `,
             'image': 'autoML.jpg',
             'skills': ['Pyhton', 'JavaScript', 'Machine Learning', 'Neural Networks', 'Keras', 'fastai', 'Pandas', 'Sklearn', 'Bootstrap', 'Git', 'MongoDB', 'VSCode', 'Jupyter Notebook'],
-            'github': 'https://github.com/balajibetadur/AI-Email-Classifier'
+            'github': 'https://github.com/balajibetadur/AI-Email-Classifier',
+                 'line' : "A cloud-based platform to train, re-train, use, save and export machine learning/deep learning models irrespective of the user's technical knowledge. The application also provides hyperparameter tuning features. "
         },
         {
             'title': 'COVID-19 prediction',
@@ -648,8 +658,9 @@ let data = {
                 `,
             'image': 'covid.jpg',
             'skills': ['Pyhton', 'Machine Learning', 'Heroku', 'javascript', 'Sklearn', 'Pandas', 'Git', 'Firebase', 'Bootstrap', 'VSCode'],
-            'github': 'https://github.com/balajibetadur/COVID-19-system'
-        },
+            'github': 'https://github.com/balajibetadur/COVID-19-system',
+                 'line' : "A Machine Learning application to predict the COVID-19 infection probability using the user's symptoms like fever, cough, body pain, cold, etc. It also predicts the lung infection with the user's x-ray using deep learning. It includes face-mask detection software implemented using OpenCV."
+            },
         {
             'title': 'Lookinat - Abrod study prep website',
             'purpose': `
@@ -693,7 +704,8 @@ let data = {
                 `,
             'image': 'ms.jpg',
             'skills': ['JavaScript', 'ReactJS', 'Firebase', 'Git', 'VSCode', 'Material UI', 'Google API', 'Selenium', 'JSON', 'Netlify'],
-            'github': 'https://github.com/balajibetadur/Study-Abroad'
+            'github': 'https://github.com/balajibetadur/Study-Abroad',
+                 'line' : 'Study Abroad platform provides a complete package for someone who wants to study abroad. It includes a GRE preparation module to learn new words with new features that are absent in well-known applications online. It also includes GRE, IELTS, TOEFL preparation, University shortlisting, profile evaluation, university prediction, Networking, Room finder, etc. (few modules are in progress)'
         },
         {
             'title': 'Moving Window Object detection',
@@ -728,7 +740,8 @@ let data = {
                 `,
             'image': 'object.png',
             'skills': ['Pyhton', 'Keras', 'Neural Networks', 'Matplotlib', 'openCV', 'fastai', 'GCP', 'Git', 'Google Collab GPU', 'VSCode'],
-            'github': 'https://github.com/balajibetadur/Traffic-sign-Recognition-2-methods'
+            'github': 'https://github.com/balajibetadur/Traffic-sign-Recognition-2-methods',
+                 'line' : 'An object detection algorithm by image classification technique using the moving window method.'
         },
         {
             'title': 'Auto EDA',
@@ -766,7 +779,8 @@ let data = {
                 `,
             'image': 'eda.jpg',
             'skills': ['Pyhton', 'Javascript', 'Pandas', 'Numpy', 'Bootstrap', 'profiling', 'Git', 'Heroku',],
-            'github': 'https://github.com/balajibetadur/EDA'
+            'github': 'https://github.com/balajibetadur/EDA',
+                 'line' : 'A website that performs automated EDA (Exploratory Data Analysis) and displays results in the form of exportable tables, charts, and plots.'
         },
         {
             'title': 'Automation',
@@ -805,7 +819,8 @@ let data = {
                 `,
             'image': 'automate.jpg',
             'skills': ['Pyhton', 'Selenium', 'Pandas', 'Chromedriver', 'Scrapy', 'Git', 'MongoDB', 'Google Collab'],
-            'github': 'https://github.com/balajibetadur/Automation'
+            'github': 'https://github.com/balajibetadur/Automation',
+                 'line' : 'Python scripts that automate simple daily-to-day life repetitive tasks. Selenium allows automating any web-browser-based tasks using chrome driver in a very short time.'
         },
         {
             'title': 'Buggy - Debugging programming errors',
@@ -846,7 +861,8 @@ let data = {
                 `,
             'image': 'debug.jpg',
             'skills': ['Pyhton', 'Cosine Similarity MAtching', 'NLP', 'Sklearn', 'Keras', 'Google Collab', 'Neural Networks', 'VSCode', 'Selenium', 'Git'],
-            'github': 'https://github.com/balajibetadur/Human-Machine-interaction-Chat-bots/tree/master/Error-Solution-Generator'
+            'github': 'https://github.com/balajibetadur/Human-Machine-interaction-Chat-bots/tree/master/Error-Solution-Generator',
+                 'line' : 'Buggy enables the user to find solutions for the errors encountered during programming. It provides a solution popup whenever an error is raised.'
         },
         {
             'title': 'Spotty - Desktop Assisstant',
@@ -888,7 +904,8 @@ let data = {
                 `,
             'image': 'spotty.jpg',
             'skills': ['Pyhton', 'Testing', 'Pyttx3', 'Speech Recognition', 'Panads', 'VSCode', 'Git'],
-            'github': 'https://github.com/balajibetadur/spotty'
+            'github': 'https://github.com/balajibetadur/spotty',
+                 'line' : 'Spotty is a voice-based desktop assistant implemented using python. It performs tasks that we do every day on our desktops.'
         },
         {
             'title': 'Portfolio',
@@ -936,7 +953,8 @@ let data = {
                 `,
             'image': 'portfolio.jpg',
             'skills': ['JavaScript', 'Iconscout', 'JOSN', 'Netlify', 'Git', 'VSCode'],
-            'github': 'https://github.com/balajibetadur/portfolio'
+            'github': 'https://github.com/balajibetadur/portfolio',
+                 'line' : "It is the current website 'balajibetadur.github.io' that tells about me and showcase my skills, research, work experience, projects, achievements, and certifications."
         }
     ],
 
@@ -1071,7 +1089,7 @@ let works = document.getElementById('r__internships')
 
 data.work.Research_Internships.forEach(work => {
 
-    works.innerHTML += '<div class="card" id="card '+work["modal-class"]+'"><div class="card__name" id="card__name">' + work.location + '</div> <img class = "card__img"src="images/' + work.image + '" alt="" srcset=""> <div class="details" id="details"> <p class="location" id="location"> ' + work.name + '</p><p class="duration" id="duration"> ' + work.duration + ' </p> </div><p class ="view__more">view</p></div><div class="modal" id="modal"><div class="modal__content" id="modal-content'+work["modal-class"]+'"> <i class="uil uil-times modal__close close__ind"></i><p class="modal__title" id="modal__title">' + work.name + '</p> </br><div class="modal__set" id="modal__set"> <div class ="dec__sections"><p class="outcome" id="outcome">Description</p><hr>' + work.description + '</div><div class ="dec__sections"> <p class="outcome" id="outcome">Outcome</p><hr>' + work.outcome + '</div></div> </div>'
+    works.innerHTML += '<div class="card" id="card '+work["modal-class"]+'"><div class="card__name" id="card__name">' + work.location + '</div> <img class = "card__img"src="images/' + work.image + '" alt="" srcset=""> <div class="details" id="details"> <p class="location" id="location"> ' + work.name + '</p><p class="duration" id="duration"> ' + work.duration + ' </p> </div><p class ="view__more">view</p></div><div class="modal" id="modal"><div class="modal__content" id="modal-content'+work["modal-class"]+'"> <i class="uil uil-times modal__close close__ind"></i><p class="modal__title" id="modal__title">' + work.name + '</p> </br><div class = "one__line"><span class="line__text">'+work.line+'<span></div><div class="modal__set" id="modal__set"> <div class ="dec__sections"><p class="outcome" id="outcome">Description</p><hr>' + work.description + '</div><div class ="dec__sections"> <p class="outcome" id="outcome">Outcome</p><hr>' + work.outcome + '</div></div> </div>'
 })
 
 let pubs = document.getElementById('pubs')
@@ -1085,7 +1103,7 @@ works = document.getElementById('i__internships')
 
 data.work.Industrial_Internships.forEach(work => {
 
-    works.innerHTML += '<div class="card" id="card"><div class="card__name" id="card__name">' + work.location + '</div> <img class = "card__img"src="images/' + work.image + '" alt="" srcset=""> <div class="details" id="details"> <p class="location" id="location"> ' + work.name + '</p><p class="duration" id="duration"> ' + work.duration + ' </p> </div><p class ="view__more">view</p></div><div class="modal" id="modal"><div class="modal__content" id="modal-content"> <i class="uil uil-times modal__close"></i><p class="modal__title" id="modal__title">' + work.name_ + '</p></br> <div class="modal__set" id="modal__set"> <div class ="dec__sections"><p class="outcome" id="outcome">Description</p><hr>' + work.description + ' </div><div class ="dec__sections"><p class="outcome" id="outcome">Outcome</p><hr>' + work.outcome + '</div> </div></div></div>'
+    works.innerHTML += '<div class="card" id="card"><div class="card__name" id="card__name">' + work.location + '</div> <img class = "card__img"src="images/' + work.image + '" alt="" srcset=""> <div class="details" id="details"> <p class="location" id="location"> ' + work.name + '</p><p class="duration" id="duration"> ' + work.duration + ' </p> </div><p class ="view__more">view</p></div><div class="modal" id="modal"><div class="modal__content" id="modal-content"> <i class="uil uil-times modal__close"></i><p class="modal__title" id="modal__title">' + work.name_ + '</p></br><div class = "one__line"><span class="line__text">'+work.line+'<span></div> <div class="modal__set" id="modal__set"> <div class ="dec__sections"><p class="outcome" id="outcome">Description</p><hr>' + work.description + ' </div><div class ="dec__sections"><p class="outcome" id="outcome">Outcome</p><hr>' + work.outcome + '</div> </div></div></div>'
 
 
 })
@@ -1126,7 +1144,7 @@ close.forEach((card, i) => card.addEventListener('click', () => {
 let projects_ = document.getElementById('project__cards')
 
 data.projects.forEach(project => {
-    projects_.innerHTML += '<div style="background-image: url(images/' + project.image + ');" class="project__card" id="project__card"><p class="project__name" id="project__name">' + project.title + '</p><p class ="more">view</p></div><div class="project__modal" id="modal"><div class="modal__content" id="modal-content"> <i class="uil uil-times project__modal__close"></i><p class="modal__title" id="modal__title">' + project.title + '</p><br><div class ="proj__skills" id ="proj__skills ' + project.title + '"></div></br> <div class="modal__set" id=modal__set"><div class = "proj__sections"><p class="outcome" id="outcome">Purpose</p><hr>' + project.purpose + '</div><div class = "proj__sections"><p class="outcome" id="outcome">Description</p><hr>' + project.description + ' </div><div class = "proj__sections"><p class="outcome" id="outcome">Outcome</p><hr>' + project.outcome + '</div></div> <div class="github" id="github"> <a class="aa icon__github" target = "_blank" href="' + project.github + '"><i class="uil uil-github "><span class="github__text">&nbsp;&nbsp; GitHub</span></i></div></div></div>'
+    projects_.innerHTML += '<div style="background-image: url(images/' + project.image + ');" class="project__card" id="project__card"><p class="project__name" id="project__name">' + project.title + '</p><p class ="more">view</p></div><div class="project__modal" id="modal"><div class="modal__content" id="modal-content"> <i class="uil uil-times project__modal__close"></i><p class="modal__title" id="modal__title">' + project.title + '</p><br><div class ="proj__skills" id ="proj__skills ' + project.title + '"></div></br><div class = "one__line__"><span class="line__text">'+project.line+'<span></div> <div class="modal__set" id=modal__set"><div class = "proj__sections"><p class="outcome" id="outcome">Purpose</p><hr>' + project.purpose + '</div><div class = "proj__sections"><p class="outcome" id="outcome">Description</p><hr>' + project.description + ' </div><div class = "proj__sections"><p class="outcome" id="outcome">Outcome</p><hr>' + project.outcome + '</div></div> <div class="github" id="github"> <a class="aa icon__github" target = "_blank" href="' + project.github + '"><i class="uil uil-github "><span class="github__text">&nbsp;&nbsp; GitHub</span></i></div></div></div>'
 })
 
 data.projects.forEach(proj => {
