@@ -1059,6 +1059,9 @@ background-color: rgba(0, 0, 0, 0.4);
 
 }
 
+.description{
+    padding: 20px 0;
+}
 
 @media (min-width: 750px) { 
 
@@ -1302,18 +1305,19 @@ background-color: rgba(0, 0, 0, 0.4);
 
     .card,
     .project__card,
+    .card__pub,
     .spec_{
         width: 45%;
-        max-width: 400px;
+        max-width: 375px;
         margin: 10px;
         /* min-height: 200px; */
     }
-    .card__pub{
+    /* .card__pub{
         width: 55%;
         max-width: 470px;
         margin: 10px;
         min-height: 220px;
-    }
+    } */
 
     .contact__text{
         font-size: 20px;
@@ -1460,12 +1464,13 @@ background-color: rgba(0, 0, 0, 0.4);
 
     
   
-    .card__name{
+    .card__name,
+    .card__name__pub{
     max-width: 90%;
 }
-    .card__name__pub{
+    /* .card__name__pub{
         max-width: 90%;
-    }
+    } */
 
    
     .modal__set{
