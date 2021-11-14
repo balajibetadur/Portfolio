@@ -954,7 +954,7 @@ let data = {
             'image': 'portfolio.jpg',
             'skills': ['JavaScript', 'Iconscout', 'JOSN', 'Netlify', 'Git', 'VSCode'],
             'github': 'https://github.com/balajibetadur/portfolio',
-                 'line' : "It is the current website 'balajibetadur.github.io' that tells about me and showcase my skills, research, work experience, projects, achievements, and certifications."
+                 'line' : "It is the current website 'balajibetadur.github.io' that tells about me and showcase my skills, research, work experience, projects, achievements, and certifications. "
         }
     ],
 
