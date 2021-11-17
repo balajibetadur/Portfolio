@@ -451,6 +451,31 @@ let data = {
         ],
 
         'Volunteerships': [
+            
+            {
+                'image': 'onlineTeaching.jpg',
+                'name': 'Machine Learning Trainee',
+                'location': '@ Girlscript Foundation',
+                'duration': 'Sep 20 - Present',
+                'description': `
+
+                        ✔ I joined as a Machine Learning trainee at Girlscript technology's core program.<br><br>
+
+                        ✔ I taught pyhton and machine learning concepts for <b>150+ engineering students</b> that includes<br>
+                        &nbsp;&nbsp;&nbsp;- Machine Learning algorithms<br>
+                        &nbsp;&nbsp;&nbsp;- Deep Learning Algorithms<br>
+                        &nbsp;&nbsp;&nbsp;- Pyhton core concepts<br>
+                        &nbsp;&nbsp;&nbsp;- Pyhton packaging<br>
+                        &nbsp;&nbsp;&nbsp;- Pandas, Numpy and Matplotlib<br>
+                        &nbsp;&nbsp;&nbsp;- Sklearm, kereas and fastai<br>
+                        &nbsp;&nbsp;&nbsp;- Deployment on heroku<br><br>
+
+
+                        ✔ We developed <b>five projects</b> on machine learning and deep learning and deployed them on Heroku.<br><br>
+
+                `,
+                'outcome': 'jhgdf</br></br>sdfh'
+            },
             {
                 'image': 'campusHero.jpg',
                 'name': 'Campus Hero',
@@ -546,31 +571,7 @@ let data = {
                 
                 `,
                 'outcome': 'jhgdf</br></br>sdfh'
-            },
-            {
-                'image': 'onlineTeaching.jpg',
-                'name': 'Machine Learning Trainee',
-                'location': '@ Girlscript Foundation',
-                'duration': 'Sep 20 - Present',
-                'description': `
-
-                        ✔ I joined as a Machine Learning trainee at Girlscript technology's core program.<br><br>
-
-                        ✔ I taught pyhton and machine learning concepts for <b>150+ engineering students</b> that includes<br>
-                        &nbsp;&nbsp;&nbsp;- Machine Learning algorithms<br>
-                        &nbsp;&nbsp;&nbsp;- Deep Learning Algorithms<br>
-                        &nbsp;&nbsp;&nbsp;- Pyhton core concepts<br>
-                        &nbsp;&nbsp;&nbsp;- Pyhton packaging<br>
-                        &nbsp;&nbsp;&nbsp;- Pandas, Numpy and Matplotlib<br>
-                        &nbsp;&nbsp;&nbsp;- Sklearm, kereas and fastai<br>
-                        &nbsp;&nbsp;&nbsp;- Deployment on heroku<br><br>
-
-
-                        ✔ We developed <b>five projects</b> on machine learning and deep learning and deployed them on Heroku.<br><br>
-
-                `,
-                'outcome': 'jhgdf</br></br>sdfh'
-            },
+            }
             // {
             //     'image' : 'mentor.jpg', 
             //     'name' : 'Uplift Project Trainee', 
