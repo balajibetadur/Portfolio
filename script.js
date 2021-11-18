@@ -15,6 +15,7 @@ let data = {
         { 'class': 'uil uil-postcard icon', 'text': 'Certificates', 'to': '#certifications' },
         { 'class': 'uil uil-message icon', 'text': 'Contact', 'to': '#contact__me' }
 
+
     ],
     'socialMedia': [
         { 'class': 'uil uil-envelope social__icon', 'to': 'mailto:balajibetadur@gmail.com' },
@@ -992,7 +993,7 @@ let data = {
 
 let certi = document.getElementById('certi__cards')
 data.Certifications.forEach(certi_ => {
-    console.log(certi)
+  
     certi.innerHTML += '<a  class="certi__card" href = "'+certi_.link+'" target = "_blank"><div>' + certi_.name + '</div></a>'
 })
 
@@ -1056,6 +1057,18 @@ if (resumeBtn) {
     })
 }
 
+let darkMode = document.getElementById('dark__mode');
+let lightMode = document.getElementById('light__mode');
+darkMode.addEventListener('click', () => {
+    darkMode.classList.add('hide');
+    lightMode.classList.add('view');
+    document.body.classList.add('dark');
+})
+lightMode.addEventListener('click', () => {
+    darkMode.classList.remove('hide');
+    lightMode.classList.remove('view');
+    document.body.classList.remove('dark');
+})
 
 whatIDo = document.getElementById('about__data')
 
@@ -1166,7 +1179,7 @@ let projectModals = document.querySelectorAll('.project__modal')
 let projectClose = document.querySelectorAll('.project__modal__close')
 
 projectCards.forEach((card, i) => card.addEventListener('click', () => {
-    console.log('hu', projectCards)
+    
     projectModals[i].classList.add('block');
 }))
 
