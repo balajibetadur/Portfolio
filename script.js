@@ -1017,7 +1017,7 @@ data.socialMedia.forEach(icon => {
 });
 
 data.menu.forEach(icon => {
-    document.getElementById('menu').innerHTML += "<div class='icon__text'><a href='" + icon.to + "'> <i class='" + icon.class + "'></i>" + icon.text + "</a></div>"
+    document.getElementById('menu').innerHTML += "<div class='icon__text'><a class='menu__items' href='" + icon.to + "'> <i class='" + icon.class + "'></i>" + icon.text + "</a></div>"
 });
 
 let menuIcon = document.getElementById('open__menu')
