@@ -1052,6 +1052,7 @@ background-color: rgba(0, 0, 0, 0.4);
     background-color: var(--theme);
     border-radius: 5px;
     padding: 5px;
+    /* color: white; */
     width: 2rem;
     height: 2rem;
     /* color: var(--text-color-inverse); */
@@ -1063,7 +1064,7 @@ background-color: rgba(0, 0, 0, 0.4);
 
 .top__icon{
     font-size: 2rem;
-    color: var(--text-color-inverse);
+    color: white;
     z-index: 10000;
 }
 
@@ -1586,7 +1587,7 @@ background-color: rgba(0, 0, 0, 0.4);
     
     .header{
         position: fixed;
-        padding-right: 50px;
+        padding-right: 80px;
         top: 0;
         padding-top: 20px;
         height: 70px;
@@ -1739,20 +1740,29 @@ background-color: rgba(0, 0, 0, 0.4);
         padding: 0;
     }
 
-    .light__mode,
+    /* .light__mode,
     .dark__mode{
         bottom: 70px;
         right: 16px;
         background-color: var(--theme);
         border-radius: 5px;
         padding: 2px 8.5px;
-        color: var(--text-color-inverse);
+        color: white;
     }
     .light__mode:hover,
     .dark__mode:hover{
         cursor: pointer;
         background-color: var(--text-color-hover);
-        color: var(--text-color-inverse);
+        color: white;
+    } */
+
+    .light__mode,
+    .dark__mode{
+        position: fixed;
+        top: 26px;
+        font-size: 1.5vw;
+
     }
+   
     
   }
