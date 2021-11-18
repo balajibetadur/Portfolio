@@ -823,7 +823,7 @@ background-color: rgba(0, 0, 0, 0.4);
 }
 
 .just{
-    min-height: 300px;
+    min-height: 100px;
     margin: 10px;
     width: 50%;
 }
