@@ -15,8 +15,15 @@
 
     --text-course-color: rgba(0, 0, 0, 0.2);
     --online-color: rgba(0, 0, 0, 0.07);
-
+    --fullBar: rgb(219, 217, 217);
+    
 }
+/* 
+@media only screen and (max-width: 1024px){ 
+    body{
+        padding-bottom: 60px;
+    }
+} */
 
 body.dark{
     background-color: rgb(39, 38, 44);
@@ -27,12 +34,13 @@ body.dark{
     --text-color-hover:  hsl(258, 25%, 56%);
     --text-color-inverse: rgb(39, 38, 44);
     --text-course-color: rgba(167, 167, 167, 0.082);
-
-
+    
+    
     --background-color-modal: rgba(0, 0, 0, 0.4);
     --z-index-modal: 1000;
     --online-color: rgba(0, 0, 0, 0.24);
-
+    --fullBar: rgba(255, 255, 255, 0.08);
+    
 }
 
 *::-webkit-scrollbar {
@@ -402,7 +410,7 @@ a:hover{
 .fullBar{
     width: 300px;
     height: 20px;
-    background-color: rgb(219, 217, 217);
+    background-color: var(--fullBar);
     border-radius: 15px;
 }
 
@@ -1247,6 +1255,7 @@ background-color: rgba(0, 0, 0, 0.4);
     .projects__skills,
     .project__skill{
         font-size: 16px;
+
     }
 
     .modal__title{
