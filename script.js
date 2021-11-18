@@ -69,7 +69,7 @@ let data = {
         }
     ],
     'skills': [
-        { 'skill': 'Pyhton', 'Level': 0.9 },
+        { 'skill': 'Python', 'Level': 0.9 },
         { 'skill': 'Machine Learning', 'Level': 0.8 },
         { 'skill': 'Deep Learning', 'Level': 0.8 },
         { 'skill': 'Keras', 'Level': 0.7 },
@@ -312,7 +312,7 @@ let data = {
                 'name': 'Computer Vision Intern',
                 'name_': `Computer Vision Intern<br>
              
-                    <span class ="project__skill">Pyhton</span>
+                    <span class ="project__skill">Python</span>
                     <span class ="project__skill">Heroku</span>
                     <span class ="project__skill">JavaScript</span>
                     <span class ="project__skill">OpenCV</span>
@@ -461,13 +461,13 @@ let data = {
 
                         ✔ I joined as a Machine Learning trainee at Girlscript technology's core program.<br><br>
 
-                        ✔ I taught pyhton and machine learning concepts for <b>150+ engineering students</b> that includes<br>
+                        ✔ I taught Python and machine learning concepts for <b>150+ engineering students</b> that includes<br>
                         &nbsp;&nbsp;&nbsp;- Machine Learning algorithms<br>
                         &nbsp;&nbsp;&nbsp;- Deep Learning Algorithms<br>
-                        &nbsp;&nbsp;&nbsp;- Pyhton core concepts<br>
-                        &nbsp;&nbsp;&nbsp;- Pyhton packaging<br>
+                        &nbsp;&nbsp;&nbsp;- Python core concepts<br>
+                        &nbsp;&nbsp;&nbsp;- Python packaging<br>
                         &nbsp;&nbsp;&nbsp;- Pandas, Numpy and Matplotlib<br>
-                        &nbsp;&nbsp;&nbsp;- Sklearm, kereas and fastai<br>
+                        &nbsp;&nbsp;&nbsp;- Sklearm, keras and fastai<br>
                         &nbsp;&nbsp;&nbsp;- Deployment on heroku<br><br>
 
 
@@ -536,7 +536,7 @@ let data = {
                         
                         ✔ During this program, we learned to lead from the front and develop essential skills like marketing and communication while representing Internshala in our college and understood how it all comes together for a cause.<br><br>
 
-                        I was selected as a super candidate for <b>three consecutive batches</b> .<br><br>
+                        ✔ I was selected as a super candidate for <b>three consecutive batches</b> .<br><br>
 
                         ✔ We spread awareness among students about courses, internships, and other services provided by Internshala for free. <br><br>
 
@@ -623,7 +623,7 @@ let data = {
                     
                 `,
             'image': 'autoML.jpg',
-            'skills': ['Pyhton', 'JavaScript', 'Machine Learning', 'Neural Networks', 'Keras', 'fastai', 'Pandas', 'Sklearn', 'Bootstrap', 'Git', 'MongoDB', 'VSCode', 'Jupyter Notebook'],
+            'skills': ['Python', 'JavaScript', 'Machine Learning', 'Neural Networks', 'Keras', 'fastai', 'Pandas', 'Sklearn', 'Bootstrap', 'Git', 'MongoDB', 'VSCode', 'Jupyter Notebook'],
             'github': 'https://github.com/balajibetadur/AI-Email-Classifier',
                  'line' : "A cloud-based platform to train, re-train, use, save and export machine learning/deep learning models irrespective of the user's technical knowledge. The application also provides hyperparameter tuning features. "
         },
@@ -665,7 +665,7 @@ let data = {
 
                 `,
             'image': 'covid.jpg',
-            'skills': ['Pyhton', 'Machine Learning', 'Heroku', 'javascript', 'Sklearn', 'Pandas', 'Git', 'Firebase', 'Bootstrap', 'VSCode'],
+            'skills': ['Python', 'Machine Learning', 'Heroku', 'javascript', 'Sklearn', 'Pandas', 'Git', 'Firebase', 'Bootstrap', 'VSCode'],
             'github': 'https://github.com/balajibetadur/COVID-19-system',
                  'line' : "A Machine Learning application to predict the COVID-19 infection probability using the user's symptoms like fever, cough, body pain, cold, etc. It also predicts the lung infection with the user's x-ray using deep learning. It includes face-mask detection software implemented using OpenCV."
             },
@@ -747,7 +747,7 @@ let data = {
                                 
                 `,
             'image': 'object.png',
-            'skills': ['Pyhton', 'Keras', 'Neural Networks', 'Matplotlib', 'openCV', 'fastai', 'GCP', 'Git', 'Google Collab GPU', 'VSCode'],
+            'skills': ['Python', 'Keras', 'Neural Networks', 'Matplotlib', 'openCV', 'fastai', 'GCP', 'Git', 'Google Collab GPU', 'VSCode'],
             'github': 'https://github.com/balajibetadur/Traffic-sign-Recognition-2-methods',
                  'line' : 'An object detection algorithm by image classification technique using the moving window method.'
         },
@@ -786,7 +786,7 @@ let data = {
 
                 `,
             'image': 'eda.jpg',
-            'skills': ['Pyhton', 'Javascript', 'Pandas', 'Numpy', 'Bootstrap', 'profiling', 'Git', 'Heroku',],
+            'skills': ['Python', 'Javascript', 'Pandas', 'Numpy', 'Bootstrap', 'profiling', 'Git', 'Heroku',],
             'github': 'https://github.com/balajibetadur/EDA',
                  'line' : 'A website that performs automated EDA (Exploratory Data Analysis) and displays results in the form of exportable tables, charts, and plots.'
         },
@@ -826,7 +826,7 @@ let data = {
                                 
                 `,
             'image': 'automate.jpg',
-            'skills': ['Pyhton', 'Selenium', 'Pandas', 'Chromedriver', 'Scrapy', 'Git', 'MongoDB', 'Google Collab'],
+            'skills': ['Python', 'Selenium', 'Pandas', 'Chromedriver', 'Scrapy', 'Git', 'MongoDB', 'Google Collab'],
             'github': 'https://github.com/balajibetadur/Automation',
                  'line' : 'Python scripts that automate simple daily-to-day life repetitive tasks. Selenium allows automating any web-browser-based tasks using chrome driver in a very short time.'
         },
@@ -868,7 +868,7 @@ let data = {
 
                 `,
             'image': 'debug.jpg',
-            'skills': ['Pyhton', 'Cosine Similarity MAtching', 'NLP', 'Sklearn', 'Keras', 'Google Collab', 'Neural Networks', 'VSCode', 'Selenium', 'Git'],
+            'skills': ['Python', 'Cosine Similarity MAtching', 'NLP', 'Sklearn', 'Keras', 'Google Collab', 'Neural Networks', 'VSCode', 'Selenium', 'Git'],
             'github': 'https://github.com/balajibetadur/Human-Machine-interaction-Chat-bots/tree/master/Error-Solution-Generator',
                  'line' : 'Buggy enables the user to find solutions for the errors encountered during programming. It provides a solution popup whenever an error is raised.'
         },
@@ -911,7 +911,7 @@ let data = {
                 
                 `,
             'image': 'spotty.jpg',
-            'skills': ['Pyhton', 'Testing', 'Pyttx3', 'Speech Recognition', 'Panads', 'VSCode', 'Git'],
+            'skills': ['Python', 'Testing', 'Pyttx3', 'Speech Recognition', 'Panads', 'VSCode', 'Git'],
             'github': 'https://github.com/balajibetadur/spotty',
                  'line' : 'Spotty is a voice-based desktop assistant implemented using python. It performs tasks that we do every day on our desktops.'
         },
@@ -983,7 +983,7 @@ let data = {
         {'name' : 'Data Visualization with Python', 'link' : 'https://coursera.org/share/d19597c937d9db03944ebc4a8d7f5508'},
         {'name' : 'Data Analysis with Python', 'link' : 'https://coursera.org/share/f42522475476591a0d9bbf3e6ee355d3'},
         {'name' : 'Databases and SQL for Data Science with Python', 'link' : 'https://coursera.org/share/915a5dce9c56fe4cfb6207c2233ad659'},
-        {'name' : 'Pyhton for Data Science, AI & Development', 'link' : 'https://coursera.org/share/ddc3869aa02cd0ec3057cdd6852d03d1'},
+        {'name' : 'Python for Data Science, AI & Development', 'link' : 'https://coursera.org/share/ddc3869aa02cd0ec3057cdd6852d03d1'},
     ]
 
 
