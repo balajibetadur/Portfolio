@@ -103,7 +103,7 @@ let data = {
                 'image': 'nlp.jpeg',
                 'name': 'Deep Learning Research Intern',
                 'location': '@ Indian Institute of Technology, Guwahati',
-                'duration': 'Sep 20 - Present',
+                'duration': 'Jun 20 - Aug 20',
                 'description': `
                         
                         ✔ Worked on <b>Creativity Index evaluation</b> for Q&A systems like CEED, UCEED (Subjectivity index module) <br><br>
@@ -137,7 +137,7 @@ let data = {
                 'image': 'robot.jpg',
                 'name': 'Deep Learning Research Intern',
                 'location': '@ Indian Institute of Technology, Bhubaneshwar',
-                'duration': 'Sep 20 - Present',
+                'duration': 'Mar 20 - Nov 20',
                 'description': `
                 
                     ✔ I Worked on path-planning algorithms for a biped robot in a static environment.<br><br>
@@ -163,7 +163,7 @@ let data = {
                 'image': 'farmer.jpg',
                 'name': 'NLP Research Intern',
                 'location': '@ GIT, belgaum',
-                'duration': 'Sep 20 - Present',
+                'duration': 'Jan 20 - Jan 21',
                 'description': `
 
                         ✔ Developed a <b>chatbot (Smart Sampark)</b> for farmers that help to solve their queries using <b>Cosine Similarity and natural Language Processing.</b><br><br>
@@ -328,7 +328,7 @@ let data = {
 
              `,
                 'location': '@ Naaniz Pvt Ltd',
-                'duration': 'Sep 20 - Present',
+                'duration': 'Jun 20 - Aug 20',
                 'description': `
                
                     ✔ Deployed deep learning model to <b>classify 250+ dishes</b> to an AI module in a food delivery application.<br><br>
@@ -382,7 +382,7 @@ let data = {
              
              `,
                 'location': '@ Conscript Pvt ltd',
-                'duration': 'Sep 20 - Present',
+                'duration': 'Apr 20 - May 20',
                 'description': `
                
                     ✔ Designed an advanced cloud-based platform for <b>autonomous hiring</b> using machine learning and cosine similarity matching.<br><br>
@@ -425,7 +425,7 @@ let data = {
 
              `,
                 'location': '@ Uniq Technologies',
-                'duration': 'Sep 20 - Present',
+                'duration': 'Jun 19 - Aug 19',
                 'description': `
 
                     ✔ This is my first internship. I worked as a python developer.<br><br>
@@ -457,7 +457,7 @@ let data = {
                 'image': 'onlineTeaching.jpg',
                 'name': 'Machine Learning Trainee',
                 'location': '@ Girlscript Foundation',
-                'duration': 'Sep 20 - Present',
+                'duration': 'Aug 20 - Nov 20',
                 'description': `
 
                         ✔ I joined as a Machine Learning trainee at Girlscript technology's core program.<br><br>
@@ -481,7 +481,7 @@ let data = {
                 'image': 'campusHero.jpg',
                 'name': 'Campus Hero',
                 'location': '@ Girlscript Technologies',
-                'duration': 'Sep 20 - Present',
+                'duration': 'Dec 20 - Mar 21',
                 'description': `
 
                         ✔ Girlscript is India's <b>First & Biggest</b> Indian Origin Technical Community
@@ -505,7 +505,7 @@ let data = {
                 'image': 'leader.jpg',
                 'name': 'Club Coordinator',
                 'location': '@ GIT, Belgaum',
-                'duration': 'Sep 20 - Present',
+                'duration': 'Sep 18 - jan 21',
                 'description': `
                 
                         ✔ I <b>co-ordinated</b> student clubs in my university, namely<br>
@@ -528,7 +528,7 @@ let data = {
                 'image': 'internshala.jpg',
                 'name': 'Internshala Student Partner',
                 'location': '@ Internshala',
-                'duration': 'Sep 20 - Present',
+                'duration': 'May 20 - Feb 21',
                 'description': `
                 
                         ✔ Internshala is <b>India's no.1</b> internship and training platform with <b>40000+ paid internships</b> in Engineering, MBA, media, law, arts, and other streams.<br><br>  
@@ -554,7 +554,7 @@ let data = {
                 'image': 'teaching.jpg',
                 'name': 'Uplift Project Mentor',
                 'location': '@ Girlscript Technologies',
-                'duration': 'Sep 20 - Present',
+                'duration': 'may 20 - Aug 20',
                 'description': `
                 
                         ✔ Uplift project aims at helping everyone who is looking for opportunities to leverage their knowledge, skills, and potential up to higher levels.<br><br>
