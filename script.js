@@ -563,7 +563,7 @@ let data = {
                         ✔ I lead <b>two major communities</b> of Data Science and Artificial Intelligence.<br><br>
 
 
-                        ✔ I mentored <b>20+ teams</b> and taught python, machine learning, computer vision, and deep learning for <b>300+ students</b> .<br><br>
+                        ✔ I mentored <b>4 teams</b> and taught python, machine learning, computer vision, and deep learning for <b>300+ students</b> .<br><br>
 
 
                         ✔ <b>Two out of ten</b> selected projects (250+ in total) were mentored by me.<br><br>
