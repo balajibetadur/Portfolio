@@ -41,7 +41,8 @@ let data = {
                 '⚡ Developing front end using react.',
                 '⚡ Creating simple UI using javascript, firebase, MongoDB, NodeJS, flask, bootstrap.'
             ]
-        }, {
+        }, 
+        {
             'title': 'Cloud Development',
             'image': 'cloud.svg',
             'description': [
@@ -283,6 +284,8 @@ let data = {
 
                     ✔ Developing backtesting, booking, position keeping, and reconciliation mechanism.<br><br>
 
+                    ✔ Over all portfolio module will squareoff all positions and cancel limit orders irrespective of any executing strategies. It also provides multiple filters for squaring off (ordertype, )
+
                     ✔ Worked on general <b>efficiency</b> improvement and optimization of the analytical library.<br><br>
 
                     ✔ Implemented an optimized way of placing a market order to <b>reduce slippage</b> .<br><br>
@@ -297,7 +300,9 @@ let data = {
                     
                     ✔ New Features like <b>copy-trading, multi-account-trading, dynamic infrastructure</b> are not available with any other broker/third party applications in the market.<br><br>
 
-                    ✔ Increased overall <b>profit by 25%</b> . ALO orders reduced <b>execution time</b> by more than <b>30%</b> .<br><br>
+                    ✔ Generates signals on triggers events and provide alert/notification to  the user.<br><br>
+
+                    ✔ Increased overall <b>profit by 25%</b> . ALO orders reduced <b>slippage</b> by more than <b>30%</b> .<br><br>
 
                     ✔ Dynamic infrastructure enables the user to <b>modify any variables</b> before and in between execution.<br><br>
 
@@ -305,7 +310,7 @@ let data = {
 
 
              `,
-                 'line' : 'Developed an automated, end-to-end, customizable, cloud-based quantitative trading platform that can monitor, trade, generate signals, perform analytical operations, and back-test historical data using Python, Machine Learning, and NLP.'
+                 'line' : 'Developed an automated end-to-end customizable cloud-based quantitative trading platform that can monitor, trade, generate signals, perform analytical operations, and back-test historical data using Python, Machine Learning, and NLP.'
             },
 
             {
@@ -398,7 +403,7 @@ let data = {
                `,
                 'outcome': `
                
-                    ✔ This platform is not only used by the applicants, but also by employers.<br><br>
+                    ✔ This platform is used by the applicants and also by employers.<br><br>
 
                     ✔ Employers add the user's profile on the portal to check the <b>job-profile match index</b> .<br><br>
 
@@ -968,12 +973,12 @@ let data = {
     ],
 
     'Achievements': [
-        '⚡ Runner up in 2 National-Level AI Competitions held by <b>Indian Institute of Technology, Bombay</b>.',
-        '⚡ State-Level winner in collage (painting) at 21st Janani event held bu VTU.',
-        '⚡ 6-star in python programming on Hackerrank Platform.',
-        '⚡ Top ranker in 17+ challenges/hackathons/competitions on Hackerearth platform (Top 4).',
-        '⚡ Winner in App Presentation in Appoloyd held by IEEE.',
-        '⚡ Co-ordinator in university student clubs<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Technical Paper Presentation.<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Design Thinking.<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Fine Arts.<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- National Service Scheme'
+        '<span class = "emoji">⚡</span> Runner up in 2 National-Level AI Competitions held by <b>Indian Institute of Technology, Bombay</b>.',
+        '<span class = "emoji">⚡</span> State-Level winner in collage (painting) at 21st Janani event held bu VTU.',
+        '<span class = "emoji">⚡</span> 6-star in python programming on Hackerrank Platform.',
+        '<span class = "emoji">⚡</span> Top ranker in 17+ challenges/hackathons/competitions on Hackerearth platform (Top 4).',
+        '<span class = "emoji">⚡</span> Winner in App Presentation in Appoloyd held by IEEE.',
+        '<span class = "emoji">⚡</span> Co-ordinator in university student clubs<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Technical Paper Presentation.<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Design Thinking.<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Fine Arts.<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- National Service Scheme'
     ],
     'Certifications': [
 
