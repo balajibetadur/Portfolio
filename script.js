@@ -140,8 +140,12 @@ let data = {
                 'location': '@ Indian Institute of Technology, Bhubaneshwar',
                 'duration': 'Mar 20 - Nov 20',
                 'description': `
-                
-                    ✔ I Worked on path-planning algorithms for a biped robot in a static environment.<br><br>
+
+                    ✔ Fast Sweeping Method is used for path planning of a biped robot in a static environment.<br><br>
+                    
+                    ✔ The FSM utilizes Eikonal equation at each location to find the optimal path between the start and goal positions. <br><br>
+                    
+                    ✔ In this research, I was actively involved in coding the algorithm and doing literature review.<br><br>
 
                     ✔ Implemented and compared multiple algorithms, namely<br>
                             &nbsp;&nbsp;&nbsp;- fast-marching<br>
@@ -152,9 +156,9 @@ let data = {
                 `,
                 'outcome': `
                 
-                    ✔ Implemented Fast Sweeping algorithm executed efficiently among all other algorithms.<br><br>
-
-                    ✔ Time taken to find a path between 2 points in static environment for FSM was lesser than FMM and a-star.<br><br>
+                    ✔ Fast Sweeping algorithm executed efficiently among all other algorithms.<br><br>
+                    
+                    ✔ FSM performed better than FMM and A star in terms of path length and time taken to generate the path.<br><br>
                 `,
                 'modal-class': 'test',
                  'line' : 'Implemented and compared path planning algorithms like Fast Marching Method, Fast Sweeping Method, and A Star for a biped robot in a static environment.'
@@ -617,7 +621,7 @@ let data = {
 
                     ✔ Many <b>students from non-It backgrounds</b> used this website to use machine learning and deep learning in their projects without coding anything themselves.<br><br>
 
-                    ✔ Apart from a few algorithms like transformers and deep learning algorithms, other algorithms will be trained in <b>less than 2 seconds</b> .<br><br>
+                    ✔ Apart from a few algorithms like transformers and deep learning algorithms, other algorithms will be trained in <b>5 - 8 seconds</b> .<br><br>
 
                     ✔ Not only can the user train the models, but he can also <b>save every trained model</b> . If the user wishes to <b>revert to the previous model</b> he can select the required model to download it or use the model to predict new samples.<br><br>
 
