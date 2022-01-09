@@ -75,6 +75,7 @@ let data = {
         { 'skill': 'Machine Learning', 'Level': 0.8 },
         { 'skill': 'Deep Learning', 'Level': 0.8 },
         { 'skill': 'Keras', 'Level': 0.7 },
+        { 'skill': 'PyTorch', 'Level': 0.8 },
         { 'skill': 'Tableau', 'Level': 0.7 },
         { 'skill': 'Neural Networks', 'Level': 0.75 },
         { 'skill': 'SQL', 'Level': 0.8 },
