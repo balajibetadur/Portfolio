@@ -229,7 +229,7 @@ let data = {
                 'duration': 'Sep 20 - Present',
                 'description': ['test'],
                 'outcome': ['test'],
-                'progress': 'revision - sage publication'
+                'progress': 'Accepted - Sage Publication'
             },
 
             {
@@ -239,7 +239,16 @@ let data = {
                 'duration': 'Sep 20 - Present',
                 'description': ['test'],
                 'outcome': 'jhgdf</br></br>sdfh',
-                'progress': 'published in ICCCMLA Springer'
+                'progress': 'Published in ICCCMLA Springer'
+            },
+            {
+                'image': 'chatBot.jpg',
+                'name': 'Smart Sampark-An approach towards building a responsive system for Kisan Call Cente',
+                'location': '@ Gogte Institute of Technology, belgaum',
+                'duration': 'Sep 20 - Present',
+                'description': ['test'],
+                'outcome': 'jhgdf</br></br>sdfh',
+                'progress': 'Published in IEEE (contributor)'
             },
 
             // {
@@ -249,7 +258,7 @@ let data = {
             //     'duration': 'Sep 20 - Present',
             //     'description': ['test'],
             //     'outcome': 'jhgdf</br></br>sdfh',
-            //     'progress': 'published in IEEE Explore'
+            //     'progress': 'Published in IEEE Explore (MPCIT)'
             // }
         ],
 
