@@ -90,7 +90,7 @@ let data = {
         { 'skill': 'Bootstrap', 'Level': 0.9 },
         { 'skill': 'C++', 'Level': 0.7 },
         { 'skill': 'Git', 'Level': 0.8 },
-        { 'skill': 'NodeJS ', 'Level': 0.7 },
+        { 'skill': 'NodeJS ', 'Level': 0.5 },
         { 'skill': 'HTML 5', 'Level': 0.9 },
         { 'skill': 'CSS 3', 'Level': 0.8 },
         { 'skill': 'Figma', 'Level': 0.7 },
