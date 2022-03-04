@@ -266,7 +266,7 @@ let data = {
 
             {
                 'image': 'stockMarket.jpg',
-                'name': 'Stock Market Automation Developer',
+                'name': 'Quantitative Analyst',
                 'name_': `
              Stock Market Automation Developer<br>
                     <span class ="project__skill">Python</span>
