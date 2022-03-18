@@ -87,6 +87,7 @@ let data = {
         { 'skill': 'ReactJS', 'Level': 0.8 },
         { 'skill': 'NodeJS ', 'Level': 0.7 },
         { 'skill': 'Firebase', 'Level': 0.8 },
+        { 'skill': 'REST Api', 'Level': 0.8 },
         { 'skill': 'AWS', 'Level': 0.5 },
         { 'skill': 'Redux', 'Level': 0.8 },
         { 'skill': 'C', 'Level': 0.7 },
