@@ -693,7 +693,7 @@ let data = {
                  'line' : "A Machine Learning application to predict the COVID-19 infection probability using the user's symptoms like fever, cough, body pain, cold, etc. It also predicts the lung infection with the user's x-ray using deep learning. It includes face-mask detection software implemented using OpenCV."
             },
         {
-            'title': 'Lookinat - Abrod study prep website',
+            'title': 'Lookinat - Abroad study prep website',
             'purpose': `
                 
                     ✔ I was preparing for GRE (Graduate Record Examinations), and I needed to learn new words daily to understand the passage and sentences in the verbal section of the exam.<br><br>
