@@ -313,13 +313,13 @@ let data = {
                 'outcome': `
 
                     ✔ High-performance and low-latency trading components/strategies optimized algorithm flow that
-                    resulted in <b>reducing slippage (loss) by 70%</b> . <br><br>
+                    resulted in <b>reducing slippage (latency loss) by 90%</b> . <br><br>
                     
                     ✔ New Features like <b>copy-trading, multi-account-trading, dynamic infrastructure</b> are not available with any other broker/third party applications in the market.<br><br>
 
                     ✔ Generates signals on triggers events and provide alert/notification to  the user.<br><br>
 
-                    ✔ Increased overall <b>profit by 25%</b> . ALO orders reduced <b>slippage</b> by more than <b>30%</b> .<br><br>
+                    ✔ Increased overall <b>profit by 22%</b> . ALO orders reduced <b>slippage</b> by more than <b>30%</b> .<br><br>
 
                     ✔ Dynamic infrastructure enables the user to <b>modify any variables</b> before and in between execution.<br><br>
 
